@@ -13,20 +13,20 @@
       .tarjeta.tarjeta-edit-5.p-4.col-lg-5
         p.mb-2 Las preparaciones magistrales, como cualquier otro medicamento, deben cumplir requisitos de:
         ul.lista-ul--color.mb-2
-          li.d-flex
-            img(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+          li.d-flex.align-items-start
+            img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
             p.mb-0.ps-2 Seguridad
-          li.d-flex
-            img(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+          li.d-flex.align-items-start
+            img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
             p.mb-0.ps-2 Eficacia
-          li.d-flex
-            img(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+          li.d-flex.align-items-start
+            img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
             p.mb-0.ps-2 Calidad
-          li.d-flex
-            img(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+          li.d-flex.align-items-start
+            img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
             p.mb-0.ps-2 Identificación correcta
-          li.d-flex
-            img(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+          li.d-flex.align-items-start
+            img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
             p.mb-0.ps-2 Información debida
         p.mb-0 Se debe estudiar de manera muy precisa la fórmula médica, identificar si es posible su correcta elaboración, es decir, si existe una validación de la fórmula por parte del químico farmacéutico responsable.
         
@@ -75,32 +75,32 @@
       .col-lg-11.d-flex.flex-wrap.align-items-center
         .col-lg-5.tarjeta.tarjeta-edit-5_2.p-4.order-2.order-lg-1(style="background-color: #FFFFFF; border-bottom-left-radius: 0")
           ul.lista-ul--color.mb-0
-            li.d-flex
-              img(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+            li.d-flex.align-items-start
+              img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Nombre del proceso.
-            li.d-flex
-              img(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+            li.d-flex.align-items-start
+              img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Alcance.
-            li.d-flex
-              img(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+            li.d-flex.align-items-start
+              img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Responsables.
-            li.d-flex
-              img(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+            li.d-flex.align-items-start
+              img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Objetivo.
-            li.d-flex
-              img(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+            li.d-flex.align-items-start
+              img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Glosarios y siglas.
-            li.d-flex
-              img(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+            li.d-flex.align-items-start
+              img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Contenido (donde se detallan secuencialmente las actividades a realizar en orden).
-            li.d-flex
-              img(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+            li.d-flex.align-items-start
+              img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Documentos de referencia.
-            li.d-flex
-              img(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+            li.d-flex.align-items-start
+              img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Registros que se generan.
-            li.d-flex.mb-0
-              img(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+            li.d-flex.mb-0.align-items-start
+              img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Anexos (en caso de que apliquen) .
         .col-lg-7.order-1.order-lg-2.mb-4.my-lg-auto
           img.m-auto(src="@/assets/curso/temas/tema5/img-1.png" style="max-width: 715px")
@@ -115,7 +115,7 @@
               h3.texto-blanco.mb-1 Procedimiento de elaboración y control
               p.texto-blanco.text-small Para mayor profundización en el tema, se invita al aprendiz a consultar el siguiente documento donde se encontrará un ejemplo de un procedimiento que aplica al proceso descrito.
             .col-sm-auto
-              a.boton.color-acento-bottones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-bottones(:href="obtenerLink('downloads/Anexo1_CF023_Procedimiento_de_elaboracion_y_control_de_preparaciones_magistrales.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
     
@@ -129,19 +129,560 @@
               h3.texto-blanco.mb-1 Farmacia comunitaria
               p.texto-blanco.text-small Con el fin de profundizar en el tema del proceso de elaboración de una preparación magistral en sus diferentes etapas, se invita al aprendiz a consultar el video Farmacia Comunitaria, ubicado en el material complementario.
             .col-sm-auto
-              a.boton.color-acento-bottones.d-flex.justify-content-between(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" style="min-width: 122px")
+              a.boton.color-acento-bottones.d-flex.justify-content-between(:href="''" target="_blank" style="min-width: 122px")
                 span Ver
                 i.fas.fa-link
 
-    p.mb-5 En el siguiente flujograma, se muestran las etapas del proceso de elaboración de los preparados magistrales, desde la prescripción médica, pasando por las verificaciones de las condiciones locativas, para garantizar la pertinencia con las Buenas Prácticas de Elaboración, controles de calidad, acondicionamiento y dispensación al usuario final. 
+    p.mb-5 En el siguiente flujograma, se muestran las etapas del proceso de elaboración de los preparados magistrales, desde la prescripción médica, pasando por las verificaciones de las condiciones locativas, para garantizar la pertinencia con las Buenas Prácticas de Elaboración, controles de calidad, acondicionamiento y dispensación al usuario final.
 
+    .titulo-sexto.color-acento-botones.mb-5
+      h5 Figura 2
+      span.d-block Flujograma proceso fabricación preparaciones magistrales
+    
+    img.mb-5(src="@/assets/curso/temas/tema5/img-6.svg")
+
+    p.mb-4 En este recorrido por el proceso de elaboración de las preparaciones se tratarán los siguientes temas:
+    ul.lista-ul--color
+      li.d-flex.align-items-start
+        img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+        p.mb-0.ps-2 Requisitos del área de recepción.
+      li.d-flex.align-items-start
+        img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+        p.mb-0.ps-2 Requisitos del área de almacenamiento.
+      li.d-flex.align-items-start
+        img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+        p.mb-0.ps-2 Requisitos del paquete técnico de producción <em>(Batch Record)</em>: orden de producción, despeje de línea inicial, procedimiento de elaboración, producto en proceso, despeje de línea final, lista de chequeo de proceso de llenado, limpieza de equipos.
+      li.d-flex.align-items-start
+        img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+        p.mb-0.ps-2 Equipos necesarios para el proceso de elaboración.
+    
+    Separador
+
+    .titulo-segundo.color-botones
+      h2#t_5_2 5.2. Requisitos área de recepción y almacenamiento de las preparaciones magistrales
+    
+    .container-100.d-flex.flex-wrap.align-items-center.mb-5.py-5(
+      :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-2.svg')})`}"
+      style="background-repeat: no-repeat; background-position: top;"
+    )
+      p.mb-5 El área para la recepción de materias primas y materiales de acondicionamiento debe ser independiente del área de fabricación que debe estar identificada y debe contar con las zonas delimitadas de ingresos, cuarentena y material rechazado.
+      .col-lg-10.col-xl-6.mx-auto
+        .titulo-sexto.color-acento-botones.mb-4
+          h5 Figura 3
+          span.d-block Área de recepción y almacenamiento
+        
+        img.mb-5(src="@/assets/curso/temas/tema5/img-7.jpg")
+    
+    p Los requisitos del área de recepción y almacenamiento de materias primas son:
+
+    .container-100.d-flex.flex-wrap.py-5(
+      :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/bg-1.svg')})`}"
+      style="background-repeat: no-repeat; background-position: bottom;"
+    )
+      .d-flex.flex-wrap.mb-4
+        .col-md-6.col-xl-4.mb-4.d-flex
+          .tarjeta-numerada.color-acento-contenido.p-5
+            .tarjeta-numerada__numero
+              .h2 1
+            p.mb-0 El área de almacenamiento de materias primas y material de acondicionamiento debe ser de acceso restringido para personas ajenas al establecimiento; asimismo, debe ser de fácil limpieza, equipado con mobiliario adecuado para este fin, con una separación mínima de 20 cm del suelo y del techo que facilite su limpieza y garantice la protección del polvo y la luz (si aplica).
+
+        .col-md-6.col-xl-4.mb-4.d-flex
+          .tarjeta-numerada.color-acento-contenido.p-5
+            .tarjeta-numerada__numero
+              .h2 2
+            p Debe contar con un refrigerador para los productos que requieran refrigeración que incluya un termómetro y los registros de temperatura correspondientes, con sus límites de alerta y de acción.
+
+        .col-md-6.col-xl-4.mb-4.d-flex
+          .tarjeta-numerada.color-acento-contenido.p-5
+            .tarjeta-numerada__numero
+              .h2 3
+            p Las áreas destinadas para el almacenamiento de especialidades farmacéuticas deberán estar separadas y ser completamente independientes. 
+
+        .col-md-6.col-xl-4.mb-4.d-flex
+          .tarjeta-numerada.color-acento-contenido.p-5
+            .tarjeta-numerada__numero
+              .h2 4
+            p.mb-0 El mobiliario para el resguardo del material de acondicionamiento debe ser adecuado para evitar su contaminación y que se ponga directamente en el piso.
+
+        .col-md-6.col-xl-4.mb-4.d-flex
+          .tarjeta-numerada.color-acento-contenido.p-5
+            .tarjeta-numerada__numero
+              .h2 5
+            p Las etiquetas deben estar almacenadas en un lugar protegido de la humedad y de acceso controlado.
+            
+        .col-md-6.col-xl-4.mb-4.d-none.d-md-flex.ps-4
+          img.ms-auto(src="@/assets/curso/temas/tema5/img-8.svg" style="max-width: 295px")
+    Separador
+
+    .titulo-segundo.color-botones
+      h2#t_5_3 5.3. Paquete técnico de producción <em>(Batch Record)</em>
+    
+    .d-flex.flex-wrap.mb-5
+      img.my-auto.col-lg-4.m-auto(src="@/assets/curso/temas/tema5/img-9.jpg" style="max-width: 428px")
+      .col-12.col-lg-4.d-flex.flex-wrap.p-4.py-lg-3(style="background-color: #D3EFFC")
+        p En este paquete tan importante dentro del proceso de elaboración de los productos farmacéuticos, es donde se dejan evidencias de todas las etapas necesarias, se consignan registros como: 
+        ul.lista-ul--color.mb-0
+          li.d-flex.align-items-start
+            img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+            p.mb-0.ps-2 Orden de producción.
+          li.d-flex.align-items-start
+            img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+            p.mb-0.ps-2 Despeje de línea inicial.
+          li.d-flex.align-items-start
+            img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+            p.mb-0.ps-2 Procedimiento de elaboración.
+          li.d-flex.align-items-start
+            img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+            p.mb-0.ps-2 Producto en proceso.
+          li.d-flex.align-items-start
+            img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+            p.mb-0.ps-2 Despeje de línea final.
+          li.d-flex.align-items-start
+            img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+            p.mb-0.ps-2 Lista de chequeo de proceso de llenado.
+          li.d-flex.mb-0.align-items-start
+            img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+            p.mb-0.ps-2 Limpieza de equipos.
+      img.my-auto.col-lg-4.m-auto(src="@/assets/curso/temas/tema5/img-10.jpg" style="max-width: 428px")
+    
+    p Cada uno de los lotes que se produzcan de un medicamento, debe tener su propio <em>Batch Record</em> y ser almacenados y controlados por el director técnico responsable del servicio o establecimiento farmacéutico. 
+
+    p.mb-5 En tal sentido, a continuación, se encuentran las definiciones, requisitos y responsables de este proceso:
+
+    .p-4.mb-5(style="background-color: #F6F6F6")
+      SlyderA.col-xl-11.mx-auto(tipo="b")
+        .row
+          .col-md-6.mb-4.mb-md-0.order-2.order-md-1
+            h4 Definiciones
+            ul.lista-ul--color.mb-0
+              li.d-flex.align-items-start
+                img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                p.mb-0.ps-2 <b><em>Batch Record</em> (BR):</b> registro que contiene la información sobre la producción y el control ejercido en las diferentes etapas de fabricación y/o acondicionamiento de un producto.
+              li.d-flex.align-items-start
+                img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                p.mb-0.ps-2 <b>Liberación del lote:</b> aprobar y autorizar el lote para su distribución.
+              li.d-flex.align-items-start
+                img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                p.mb-0.ps-2 <b>Lote origen (LO):</b> lote origen (del material) y/o asignado por el cliente.
+              li.d-flex.align-items-start
+                img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                p.mb-0.ps-2 <b>Lote interno (LI):</b> lote asignado por producción y gestión.
+          .col-md-6.order-1.order-md-2.mb-4.mb-md-auto
+            figure
+              img.mx-auto(src='@/assets/curso/temas/tema5/img-12.png' style="max-width: 408px")
+        .row
+          .col-md-6.mb-4.mb-md-0.order-2.order-md-1
+            h4 Definiciones
+            ul.lista-ul--color.mb-0
+              li.d-flex.align-items-start
+                img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                p.mb-0.ps-2 El <em>Batch Record</em> debe ser diligenciado por el personal encargado de cada proceso.
+              li.d-flex.align-items-start
+                img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                p.mb-0.ps-2 La información debe ser legible, sin enmendaduras y no se deben dejar espacios en blanco. 
+              li.d-flex.align-items-start
+                img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                p.mb-0.ps-2 Diligenciar cada campo del <em>Batch Record</em> en el momento en que se está realizando el proceso indicado. Los documentos deben llenarse con esfero de tinta negra.
+              li.d-flex.align-items-start
+                img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                p.mb-0.ps-2 Cuando varias actividades que se ejecuten en una misma hoja del <em>Batch Record</em> ocurren simultáneamente en 2 o más procesos. Se debe contar con una copia de esta en cada proceso que se adjuntará al <em>Batch Record</em>.
+              li.d-flex.align-items-start
+                img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                p.mb-0.ps-2 Cuando los campos disponibles para diligenciar se agoten en alguna de las hojas. Se debe diligenciar una copia en blanco de la misma hoja. 
+              li.d-flex.align-items-start
+                img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                p.mb-0.ps-2 El personal encargado debe solicitar a su jefe inmediato el <em>Batch Record</em> para diligenciar inmediatamente le sea entregada la orden de producción.
+          .col-md-6.order-1.order-md-2.mb-4.mb-md-auto
+            figure
+              img.mx-auto(src='@/assets/curso/temas/tema5/img-13.png' style="max-width: 408px")
+        
+        .row
+          .col-md-6.mb-4.mb-md-0.order-2.order-md-1
+            h4 Definiciones
+            ul.lista-ul--color.mb-0
+              li.d-flex.align-items-start
+                img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                p.mb-0.ps-2 <b>Personal operativo:</b> consignar la información completa y correcta, cumpliendo con las buenas prácticas de registro. La última persona encargada del proceso al que es sometido un producto deberá recopilar y entregar el <em>Batch Record</em> a ingeniería de procesos o supervisión de producción.
+              li.d-flex.align-items-start
+                img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                p.mb-0.ps-2 <b>Supervisión de producción:</b> debe asegurar que la información consignada en el <em>Batch Record</em> esté completa, sea verídica y cumpla con las buenas prácticas de registro, antes de entregarlo al proceso de control de calidad.
+              li.d-flex.align-items-start
+                img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                p.mb-0.ps-2 <b>Coordinación de planeación:</b> suministrar las órdenes de producción con la información necesaria para el diligenciamiento básico del <em>Batch Record</em>.
+              li.d-flex.align-items-start
+                img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                p.mb-0.ps-2 <b>Ingeniería de procesos:</b> asegurar que la información consignada en el <em>Batch Record</em> esté completa, verificada y que cumpla con las buenas prácticas de registro, antes de entregarlo al proceso de control de calidad. 
+              li.d-flex.align-items-start
+                img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                p.mb-0.ps-2 <b>Dirección técnica:</b> revisar y aprobar los <em>Batch Record</em> para la liberación de productos salvaguardados físicamente y compilar su información digitalmente, asegurándose de que se cumplan todas las normas estipuladas. 
+          .col-md-6.order-1.order-md-2.mb-4.mb-md-auto
+            figure
+              img.mx-auto(src='@/assets/curso/temas/tema5/img-14.png' style="max-width: 408px")
+
+    p.mb-5 Los documentos consignados en el Batch Record, deben guardar un orden lógico relacionado con el proceso productivo. Es importante conocer cada uno de ellos, su estructura y función:
+
+    .tarjeta.tarjeta--gris.p-4
+      PasosB.color-secundario
+        .row.col-xl-11.mx-auto
+          .col-lg-6.mb-4.mb-lg-0.pt-4
+            h3 Orden de producción
+            p Antes de iniciar con el proceso de producción y diligenciamiento del <em>Batch Record</em>, se debe tener como insumo una información importante relacionada con el producto, la cual se detalla en la orden de producción que se genere y que autoriza el inicio de dicha actividad.
+            p La información que debe ir en este documento es:
+          .col-lg-6
+            .p-4(style="background-color: #D6EEF9; border: 2px solid #E8E8E8; font-size: 13px")
+              p.text-center.fw-bold Procedimiento 
+              p Consecutivo <b style="color: #11B4C9">No. 00000001</b> (programa de producción)
+              p Se debe diligenciar:
+              ul.lista-ul--color.mb-0
+                li.d-flex.align-items-start.mb-1
+                  img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                  p.mb-0.ps-2 Fecha de inicio.
+                li.d-flex.align-items-start.mb-1
+                  img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                  p.mb-0.ps-2 Fecha de finalización <b>(al terminar la producción).</b>
+                li.d-flex.align-items-start.mb-1
+                  img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                  p.mb-0.ps-2 Fecha de vencimiento del producto.
+                li.d-flex.align-items-start.mb-1
+                  img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                  p.mb-0.ps-2 Orden de producción del sistema de manejo de inventario (Factory).
+                li.d-flex.align-items-start.mb-1
+                  img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                  p.mb-0.ps-2 Stock del producto a realizar.
+                li.d-flex.align-items-start.mb-1
+                  img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                  p.mb-0.ps-2 Descripción del producto.
+                li.d-flex.align-items-start.mb-1
+                  img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                  p.mb-0.ps-2 Cantidad programada.
+                li.d-flex.align-items-start.mb-1
+                  img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                  p.mb-0.ps-2 Rendimiento teórico.
+                li.d-flex.align-items-start.mb-1
+                  img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                  p.mb-0.ps-2 Rendimiento real <b>(al terminar la producción)</b>.
+                li.d-flex.align-items-start.mb-1
+                  img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
+                  p.mb-0.ps-2 Lote.
+
+        .row.col-xl-11.mx-auto
+          .col-lg-6.mb-4.mb-lg-0.pt-4
+            h3 Asignación lote
+            p Cada servicio o establecimiento farmacéutico tendrá su propio método para la determinación y codificación del lote asignado a cada producto elaborado y que lo identificará en todo momento durante la producción de este y su posterior almacenamiento y dispensación al usuario final.
+          .col-lg-6
+            .p-4(style="background-color: #D6EEF9; border: 2px solid #E8E8E8; font-size: 13px")
+              p La primera letra corresponde al año de producción del producto que se relaciona con la palabra complaints, donde cada letra equivale a un año de la década como se muestra a continuación:
+              img.mx-auto.mb-3(src="@/assets/curso/temas/tema5/img-15.svg" style="max-width: 340px")
+              p La segunda letra hace referencia al mes en el que se produce el producto, cada mes del año equivale a una letra de la palabra stenographic. Como se muestra a continuación:
+              img.mx-auto(src="@/assets/curso/temas/tema5/img-16.svg")
+        
+        .row.col-xl-11.mx-auto
+          .col-lg-6.mb-4.mb-lg-0.pt-4
+            h3 Despeje de línea
+            p Esta actividad tiene como objetivo asegurar que el producto y los materiales que van a intervenir en el proceso de fabricación han sido verificados correctamente y que no hay posibilidad de mezcla con productos diferentes o lotes diferentes anteriormente trabajados en línea.
+            p Como se puede observar en la tabla, se verifica que no hay presencia de ningún material del producto o documento elaborado anteriormente, que las áreas están despejadas, limpias. Luego, se verifica que la información material del lote a elaborar, al igual que las áreas, cumplan con todos los requisitos para iniciar el nuevo proceso. 
+              br
+              |En ambos casos, se deja la firma de quien realiza la operación y quien la verifica.
+          .col-lg-6
+            .p-4(style="background-color: #D6EEF9; border: 2px solid #E8E8E8; font-size: 13px")
+              img.mx-auto(src="@/assets/curso/temas/tema5/img-17.svg")
+
+        .row.col-xl-11.mx-auto
+          .col-lg-6.mb-4.mb-lg-0.pt-4
+            h3 Verificación materias primas
+            p Es importante verificar las materias primas que van a ser utilizadas para la fabricación de las preparaciones magistrales en lo relacionado con: cantidades, registrar los lotes de cada una en caso de necesitar hacer trazabilidad, fecha de vencimiento para garantizar que son aptas para su uso, y realizar inspección visual para detectar alguna anomalía.  La tabla ilustra un formato de verificación de materia prima.
+          .col-lg-6
+            .p-4(style="background-color: #D6EEF9; border: 2px solid #E8E8E8; font-size: 13px")
+              img.mx-auto(src="@/assets/curso/temas/tema5/img-18.svg")
+        
+        .row.col-xl-11.mx-auto
+          .col-lg-6.mb-4.mb-lg-0.pt-4
+            h3 Verificación materiales
+            p Los materiales a utilizar en el proceso de elaboración de las preparaciones magistrales, como los envases primarios y secundarios, deben ser verificados en cuanto a sus cantidades para garantizar que son los suficientes para la producción, los adecuados para el producto y que no presentan deterioro ni fallas en su apariencia.
+          .col-lg-6
+            .p-4(style="background-color: #D6EEF9; border: 2px solid #E8E8E8; font-size: 13px")
+              img.mx-auto(src="@/assets/curso/temas/tema5/img-19.svg")
+        
+        .row.col-xl-11.mx-auto
+          .col-lg-6.mb-4.mb-lg-0.pt-4
+            h3 Controles proceso
+            p Durante todas las etapas de elaboración del producto, se deben realizar controles a medida que este avanza, con el objetivo de garantizar que dicha actividad se lleva a cabo en condiciones adecuadas y prever cualquier no conformidad que surja. Dichos controles se realizan durante las etapas de llenado y acondicionamiento del producto.
+            p Como modelos de formatos para registrar dicha información, se tienen los representados en las tablas:
+          .col-lg-6
+            .p-4(style="background-color: #D6EEF9; border: 2px solid #E8E8E8; font-size: 13px")
+              img.mb-3.mx-auto(src="@/assets/curso/temas/tema5/img-20.svg")
+              p Durante intervalos definidos, el personal de producción verifica que el volumen y el peso del producto sea los adecuados según las especificaciones de este, deberá reportar la información en el formato y reporta en caso de que algún resultado se encuentre por fuera de especificaciones.
+              .col.d-flex.justify-content-end
+                a.boton.color-acento-botones.indicador__container(@click="modal1 = true; mostrarIndicador = false;")
+                  span.fw-bold(style="color: black") Ver controles en el proceso
+                  .indicador--click(v-if="mostrarIndicador")
+
+        .row.col-xl-11.mx-auto
+          .col-lg-6.mb-4.mb-lg-0.pt-4
+            h3 Controles proceso acondicionamiento
+            p En el ejemplo de las tablas, se observan los controles al proceso de acondicionamiento verificando que cumpla con las siguientes características: 
+            ul.lista-ul--color.mb-0
+              li.d-flex.align-items-start.mb-1
+                img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+                p.mb-0.ps-2 Etiqueta correcta y bien situada.
+              li.d-flex.align-items-start.mb-1
+                img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+                p.mb-0.ps-2 <em>Sticker</em> colocado, si se encuentra bien sellado.
+              li.d-flex.align-items-start.mb-1
+                img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+                p.mb-0.ps-2 Limpieza exterior.
+              li.d-flex.align-items-start.mb-1
+                img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+                p.mb-0.ps-2 Presencia del lote y la codificación.
+              li.d-flex.align-items-start.mb-1
+                img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+                p.mb-0.ps-2 Se observan los intervalos en los cuales se hacen los controles y el reporte del cumplimiento con la letra “C”.
+              li.d-flex.align-items-start.mb-1
+                img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+                p.mb-0.ps-2 Firma de quien hizo la verificación.
+          .col-lg-6
+            .p-4(style="background-color: #D6EEF9; border: 2px solid #E8E8E8; font-size: 13px")
+              img.mx-auto(src="@/assets/curso/temas/tema5/img-21.svg")
+        
+        .row.col-xl-11.mx-auto
+          .col-lg-6.mb-4.mb-lg-0.pt-4
+            h3 Controles producto entregado
+            ul.lista-ul--color.mb-0
+              li.d-flex.align-items-start.mb-1
+                img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+                p.mb-0.ps-2 En diferentes fases del proceso de producción, se pueden generar novedades o solicitudes de producto, ya sea que este se encuentre sin procesar, en proceso, terminado, cuarentena o rechazado. Estos movimientos deben ser controlados y monitoreados con el objetivo de conocer el estado actual del producto, controlar el inventario de este, conocer su ubicación y la causa de esa decisión de traslado.
+              li.d-flex.align-items-start.mb-1
+                img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+                p.mb-0.ps-2 Un ejemplo claro podría ser la elaboración de un preparado magistral que está en fase de cuarentena, de este producto se deben sacar muestras y enviar a control de calidad para que realice las pruebas pertinentes, con el objetivo de verificar si cumple con los parámetros establecidos. Dicho movimiento de las muestras debe quedar registrado en el formato designado para esto.
+          .col-lg-6
+            p En las tablas, se muestra un ejemplo.
+            .p-4(style="background-color: #D6EEF9; border: 2px solid #E8E8E8; font-size: 13px")
+              img.mb-3.mx-auto(src="@/assets/curso/temas/tema5/img-22.svg")
+              .col.d-flex.justify-content-end
+                a.boton.color-acento-botones(@click="modal2 = true;")
+                  span.fw-bold(style="color: black") Ampliar
+        
+        .row.col-xl-11.mx-auto
+          .col-lg-6.mb-4.mb-lg-0.pt-4
+            h3 Conciliación materiales
+            p Luego del proceso de aprobación por parte del área de control de calidad, se procede a la realización del proceso de acondicionamiento final, donde se realizan controles externos al producto, como:
+            ul.lista-ul--color.mb-0
+              li.d-flex.align-items-start.mb-1
+                img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+                p.mb-0.ps-2 Errores de impresión en la etiqueta.
+              li.d-flex.align-items-start.mb-1
+                img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+                p.mb-0.ps-2 Rayones.
+              li.d-flex.align-items-start.mb-1
+                img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+                p.mb-0.ps-2 Quebrados rotos.
+              li.d-flex.align-items-start.mb-1
+                img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+                p.mb-0.ps-2 Dimensiones erróneas.
+              li.d-flex.align-items-start.mb-1
+                img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+                p.mb-0.ps-2 Contaminación.
+              li.d-flex.align-items-start.mb-1
+                img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+                p.mb-0.ps-2 Golpes, entre otros.
+          .col-lg-6
+            p La tabla muestra un ejemplo de la información a controlar.
+            .p-4(style="background-color: #D6EEF9; border: 2px solid #E8E8E8; font-size: 13px")
+              img.mb-3.mx-auto(src="@/assets/curso/temas/tema5/img-23.svg")
+              .col.d-flex.justify-content-end
+                a.boton.color-acento-botones(@click="modal3 = true;")
+                  span.fw-bold(style="color: black") Ampliar
+        
+        .row.col-xl-11.mx-auto
+          .col-lg-6.mb-4.mb-lg-0.pt-4
+            h3 Formato aprobación
+            p Finalmente, el director(a) técnico(a) responsable deberá revisar cada uno de los documentos del <em>Batch Record</em>, verificar que cumplieron con todos los requisitos y dar su aval para que se libere el lote y pase al proceso de almacenamiento, para su posterior dispensación al usuario final.
+            p <b>Nota:</b> si durante el proceso existen algunas desviaciones de calidad que no afectan al producto ni al usuario final, el director técnico debe dejar aclarado eso en el <em>Batch Record</em>.
+          .col-lg-6
+            .p-4(style="background-color: #D6EEF9; border: 2px solid #E8E8E8; font-size: 13px")
+              img.mx-auto(src="@/assets/curso/temas/tema5/img-24.svg")
+
+    ModalA(:abrir-modal.sync="modal1")
+      .row.align-items-center
+        .p-4(style="background-color: #D6EEF9; border: 2px solid #E8E8E8; font-size: 13px")
+          img.mx-auto(src="@/assets/curso/temas/tema5/img-modal.svg" style="max-width: 300px")
+    
+    ModalA(:abrir-modal.sync="modal2")
+      .row.align-items-center
+        .p-4(style="background-color: #D6EEF9; border: 2px solid #E8E8E8; font-size: 13px")
+          img.mx-auto(src="@/assets/curso/temas/tema5/img-22.svg")
+    
+    ModalA(:abrir-modal.sync="modal3")
+      .row.align-items-center
+        .p-4(style="background-color: #D6EEF9; border: 2px solid #E8E8E8; font-size: 13px")
+          img.mx-auto(src="@/assets/curso/temas/tema5/img-23.svg")
+    
+    Separador
+
+    .titulo-segundo.color-botones
+      h2#t_5_4 5.4 Equipos requeridos para las preparaciones magistrales tópicas no estériles
+    
+    .container-100.d-flex.flex-wrap.align-items-center.mb-5.py-5(
+      :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/bg-1.svg')})`}"
+      style="background-repeat: no-repeat; background-position: center;"
+    )
+      p Para las preparaciones no estériles se requieren equipos e instrumentos, que deben cumplir con requerimientos relacionados con el mantenimiento, limpieza, exactitud y precisión en la medición, ser los adecuados para el tipo de productos, escalas de medición adecuadas.
+      p.mb-4 Dentro de los equipos e instrumentos fundamentales, están los siguientes:
+      .d-flex.flex-wrap.mb-4.w-100
+        .col-lg-6.pe-lg-4.order-2.order-lg-1
+          ul.lista-ul--color.mb-0
+            li.d-flex.align-items-start.mb-1
+              img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+              p.mb-0.ps-2 Mesa antivibratoria
+            li.d-flex.align-items-start.mb-1
+              img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+              p.mb-0.ps-2 Estanterías
+            li.d-flex.align-items-start.mb-1
+              img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+              p.mb-0.ps-2 Armarios
+            li.d-flex.align-items-start.mb-1
+              img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+              p.mb-0.ps-2 Balanzas
+            li.d-flex.align-items-start.mb-1
+              img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+              p.mb-0.ps-2 Agitadores magnéticos
+            li.d-flex.align-items-start.mb-1
+              img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+              p.mb-0.ps-2 Estufa
+            li.d-flex.align-items-start.mb-1
+              img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+              p.mb-0.ps-2 Nevera
+            li.d-flex.align-items-start.mb-1
+              img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+              p.mb-0.ps-2 pH-metro
+            li.d-flex.align-items-start.mb-1
+              img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+              p.mb-0.ps-2 Material de vidrio
+            li.d-flex.align-items-start.mb-1
+              img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+              p.mb-0.ps-2 Baño de calor (baño María)
+            li.d-flex.align-items-start.mb-1
+              img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
+              p.mb-0.ps-2 Reenvasador
+        .col-lg-6.order-1.order-lg-2
+          img.mx-auto(src="@/assets/curso/temas/tema5/img-25.svg" style="max-width: 572px")
+      p En las siguientes figuras, se podrán visualizar algunos de estos equipos e implementos, sus características y funciones.
+    
+    .p-4.mb-5(style="background-color: #E8EEFA")
+      SlyderA.col-xl-11.mx-auto(tipo="b")
+        .d-flex.flex-wrap
+          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+            img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-1.jpg")
+            .p-2.w-100(style="background-color: #15D3EC")
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Balanzas de precisión 
+          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+            img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-2.jpg")
+            .p-2.w-100(style="background-color: #15D3EC")
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Morteros de vidrio 
+          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+            img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-3.jpg")
+            .p-2.w-100(style="background-color: #15D3EC")
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Baño termostático
+          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+            img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-4.jpg")
+            .p-2.w-100(style="background-color: #15D3EC")
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Auxiliares de pipeteo 
+          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+            img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-5.jpg")
+            .p-2.w-100(style="background-color: #15D3EC")
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Agitadores magnéticos 
+          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+            img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-6.jpg")
+            .p-2.w-100(style="background-color: #15D3EC")
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Espátulas 
+          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+            img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-7.jpg")
+            .p-2.w-100(style="background-color: #15D3EC")
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Placas calefactoras
+          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+            img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-8.jpg")
+            .p-2.w-100(style="background-color: #15D3EC")
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") pH-metro
+          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+            img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-9.jpg")
+            .p-2.w-100(style="background-color: #15D3EC")
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Lente de aumento
+          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+            img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-10.jpg")
+            .p-2.w-100(style="background-color: #15D3EC")
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Termómetros
+          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+            img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-11.jpg")
+            .p-2.w-100(style="background-color: #15D3EC")
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Sistema para determinar 
+          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+            img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-12.jpg")
+            .p-2.w-100(style="background-color: #15D3EC")
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Alcohómetro
+
+        .d-flex.flex-wrap
+          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+            img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-13.jpg")
+            .p-2.w-100(style="background-color: #15D3EC")
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Balanzas de precisión 
+          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+            img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-14.jpg")
+            .p-2.w-100(style="background-color: #15D3EC")
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Morteros de vidrio 
+          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+            img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-15.jpg")
+            .p-2.w-100(style="background-color: #15D3EC")
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Baño termostático
+          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+            img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-16.jpg")
+            .p-2.w-100(style="background-color: #15D3EC")
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Auxiliares de pipeteo
+        
+        .d-flex.flex-wrap
+          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+            img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-17.jpg")
+            .p-2.w-100(style="background-color: #15D3EC")
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Balanzas de precisión 
+          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+            img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-18.jpg")
+            .p-2.w-100(style="background-color: #15D3EC")
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Morteros de vidrio 
+          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+            img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-19.jpg")
+            .p-2.w-100(style="background-color: #15D3EC")
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Baño termostático
+          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+            img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-20.jpg")
+            .p-2.w-100(style="background-color: #15D3EC")
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Auxiliares de pipeteo 
+          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+            img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-21.jpg")
+            .p-2.w-100(style="background-color: #15D3EC")
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Auxiliares de pipeteo
+    
+    .tarjeta.color-secundario.p-3.mb-5.col-xl-10.mx-auto
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/tema5/img-26.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3.texto-blanco.mb-1 Manual de limpieza y desinfección
+              p.texto-blanco.text-small Para el proceso de limpieza y desinfección de áreas y equipos de procesos no estériles, se invita al aprendiz a consultar el siguiente documento.
+            .col-sm-auto
+              a.boton.color-acento-bottones(:href="obtenerLink('downloads/Anexo2_CF020_Manual_de_limpieza_y_desinfeccion.pdf')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download
 </template>
 
 <script>
 export default {
   name: 'Tema5',
   data: () => ({
-    // variables de vue
+    modal1: false,
+    modal2: false,
+    modal3: false,
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -206,4 +747,12 @@ export default {
   position: relative
   @media (max-width: 991px)
     margin-right: 0
+.slyder-a
+  .slyder-a__tipo-b
+    .slyder-a__bullets
+      .slyder-a__bullets__item
+        background-color: #F9D7A0
+        border: none
+      .slyder-a__bullets__item--active
+        background-color: #FF9D00
 </style>

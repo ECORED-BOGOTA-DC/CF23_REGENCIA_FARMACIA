@@ -38,8 +38,8 @@
               p.texto-blanco.text-small Con el fin de profundizar en el tema del proceso de elaboración de una preparación magistral en sus diferentes etapas, se invita al aprendiz a consultar el video Farmacia Comunitaria, ubicado en el material complementario.
             .col-sm-auto
               a.boton.color-acento-bottones.d-flex.justify-content-between(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" style="min-width: 122px")
-                span Ver
-                i.fas.fa-link
+                span Descargar
+                i.fas.fa-file-download
     
     .tarjeta.color-secundario.p-3.mb-5.col-xl-10.mx-auto
       .row.justify-content-around.align-items-center

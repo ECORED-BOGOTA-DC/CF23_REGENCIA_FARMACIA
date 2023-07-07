@@ -17,7 +17,7 @@
         img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema4/img-1.png" style="max-width: 284px")
     
     .titulo-sexto.color-acento-botones.mb-5
-      h5 Figura 1.
+      h5 Figura 1
       span.d-block Procesos de los establecimientos farmacéuticos
     
     img(src="@/assets/curso/temas/tema4/img-2.svg")
