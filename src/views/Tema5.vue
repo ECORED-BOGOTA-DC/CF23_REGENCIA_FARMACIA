@@ -569,95 +569,98 @@
       p En las siguientes figuras, se podrán visualizar algunos de estos equipos e implementos, sus características y funciones.
     
     .p-4.mb-5(style="background-color: #E8EEFA")
-      SlyderA.col-xl-11.mx-auto(tipo="b")
+      SlyderA.col-xl-11.mx-auto.py-4(tipo="b")
         .d-flex.flex-wrap
+          h4.w-100.text-center.mb-4 Equipos e implementos proceso de producción
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-1.jpg")
-            .p-2.w-100(style="background-color: #15D3EC")
+            .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 0")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Balanzas de precisión 
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-2.jpg")
-            .p-2.w-100(style="background-color: #15D3EC")
+            .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 1")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Morteros de vidrio 
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-3.jpg")
-            .p-2.w-100(style="background-color: #15D3EC")
+            .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 2")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Baño termostático
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-4.jpg")
-            .p-2.w-100(style="background-color: #15D3EC")
+            .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 3")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Auxiliares de pipeteo 
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-5.jpg")
-            .p-2.w-100(style="background-color: #15D3EC")
+            .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 4")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Agitadores magnéticos 
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-6.jpg")
-            .p-2.w-100(style="background-color: #15D3EC")
+            .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 5")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Espátulas 
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-7.jpg")
-            .p-2.w-100(style="background-color: #15D3EC")
+            .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 6")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Placas calefactoras
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-8.jpg")
-            .p-2.w-100(style="background-color: #15D3EC")
+            .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 7")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") pH-metro
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-9.jpg")
-            .p-2.w-100(style="background-color: #15D3EC")
+            .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 8")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Lente de aumento
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-10.jpg")
-            .p-2.w-100(style="background-color: #15D3EC")
+            .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 9")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Termómetros
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-11.jpg")
-            .p-2.w-100(style="background-color: #15D3EC")
+            .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 10")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Sistema para determinar 
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-12.jpg")
-            .p-2.w-100(style="background-color: #15D3EC")
+            .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 11")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Alcohómetro
 
         .d-flex.flex-wrap
+          h4.w-100.text-center.mb-4 Material volumétrico para medir desde 100 μl a 1 l
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-13.jpg")
-            .p-2.w-100(style="background-color: #15D3EC")
+            .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 12")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Balanzas de precisión 
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-14.jpg")
-            .p-2.w-100(style="background-color: #15D3EC")
+            .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 13")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Morteros de vidrio 
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-15.jpg")
-            .p-2.w-100(style="background-color: #15D3EC")
+            .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 14")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Baño termostático
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-16.jpg")
-            .p-2.w-100(style="background-color: #15D3EC")
+            .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 15")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Auxiliares de pipeteo
         
         .d-flex.flex-wrap
+          h4.w-100.text-center.mb-4 Material diverso
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-17.jpg")
-            .p-2.w-100(style="background-color: #15D3EC")
+            .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 16")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Balanzas de precisión 
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-18.jpg")
-            .p-2.w-100(style="background-color: #15D3EC")
+            .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 17")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Morteros de vidrio 
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-19.jpg")
-            .p-2.w-100(style="background-color: #15D3EC")
+            .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 18")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Baño termostático
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-20.jpg")
-            .p-2.w-100(style="background-color: #15D3EC")
+            .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 19")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Auxiliares de pipeteo 
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-21.jpg")
-            .p-2.w-100(style="background-color: #15D3EC")
+            .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 20")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Auxiliares de pipeteo
     
     .tarjeta.color-secundario.p-3.mb-5.col-xl-10.mx-auto
@@ -673,6 +676,12 @@
               a.boton.color-acento-bottones(:href="obtenerLink('downloads/Anexo2_CF020_Manual_de_limpieza_y_desinfeccion.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
+    
+    ModalA.modal-tarjeta(:abrir-modal.sync="modalTarjetas")
+      .row.align-items-center
+        p.fw-bold {{ titlesTarjeta[indexTarjeta] }}
+        p {{ descriptionTarjeta[indexTarjeta] }}
+
 </template>
 
 <script>
@@ -682,7 +691,55 @@ export default {
     modal1: false,
     modal2: false,
     modal3: false,
+    modalTarjetas: false,
     mostrarIndicador: true,
+    indexTarjeta: 0,
+    titlesTarjeta: [
+      'Balanzas de precisión que pesen desde 1 mg a 2 kg.',
+      'Baño termostático.',
+      'Morteros de vidrio y porcelana.',
+      'Auxiliares de pipeteo y varillas.',
+      'Agitadores magnéticos y de hélice.',
+      'Placas calefactoras.',
+      'Espátulas de metal y de goma.',
+      'pH-metro.',
+      'Lente de aumento.',
+      'Termómetros.',
+      'Sistema para determinar el punto de fusión (PF).',
+      'Alcohómetro.',
+      'Pipetas graduadas.',
+      'Pipetas automáticas y puntas para volúmenes de ml.',
+      'Probetas.',
+      'Matraces aforados.',
+      'Vasos de precipitados.',
+      'Embudos.',
+      'Matraces Erlenmeyer.',
+      'Vidrio de reloj y pesasustancias.',
+      'Tamices para polvo fino, grueso y muy grueso.',
+    ],
+    descriptionTarjeta: [
+      'Disponen de un plato que puede ir protegido por paredes de vidrio, sobre este se pone el objeto a pesar en el interior del recipiente adecuado. El peso aparecerá en la pantalla digital.',
+      'Llevan en su interior una resistencia eléctrica que calienta el agua hasta una temperatura prefijada por un termostato. Pueden disponer de algún mecanismo que remueva el agua para que el calentamiento sea homogéneo.',
+      'Tienen forma de cuenco y cuentan con un pico en el borde para el desalojo de su contenido. La mano o pistilo sirven para pulverizar, realizar mezclas, homogeneizar y amasar.',
+      'Los pipeteadores o auxiliares de pipeteo se utilizan acoplados a las pipetas manuales. Si sirven de un émbolo para realizar la aspiración de los líquidos. Las varillas de vidrio para agitar son tubos de vidrio macizos de diferentes tamaños; se utilizan para realizar mezclas.',
+      'Sirven para acelerar la mezcla de los componentes de una disolución. En los agitadores magnéticos se introducen imanes en las disoluciones para que se mezclen correctamente los componentes.',
+      'Constan de una superficie que proporciona calor seco para concentrar las disoluciones, evaporar disolventes o simplemente alcanzar una temperatura adecuada para un procedimiento de elaboración determinado. Pueden llevar agitación incorporada. En la imagen, se ve una placa de calefactores con agitación.',
+      'Su finalidad es separar fracciones de sólido o recoger distintos tipos de productos acabados en formulación magistral.',
+      'Sirve para medir la concentración de hidrogeniones de una solución. El pH-metro mide la diferencia de potencial que originan los iones hidrógeno (H+) de la solución problema con respecto a la solución de referencia.',
+      'Sirve para aumentar el tamaño de la imagen de la muestra que se quiere estudiar. Una vez colocada esta debajo de la lente, se mira a través de los oculares para apreciar el aumento del tamaño de esta y detalles que a simple vista pasan desapercibidos.',
+      'Tubo capilar en cuya parte inferior se encuentra un depósito lleno de mercurio. Al calentarse, el mercurio asciende por el capilar, marcando la temperatura.',
+      'El ensayo de PF está muy extendido en los laboratorios. Se utiliza para identificar materias primas pulverulentas y para conocer su grado de pureza, pues en una sustancia pura el cambio de estado de sólido a líquido es rápido y la temperatura permanece constante durante todo el proceso.',
+      'Dispositivo de laboratorio, semejante a un densímetro, graduado en grados alcohólicos que indica de forma cuantitativa la riqueza en alcohol de un líquido o disolución.',
+      'Tubos huecos de vidrio, cuya finalidad es trasvasar volúmenes exactos de un recipiente a otro. Disponen de una graduación que nos indica los volúmenes que podemos recoger. Se utilizan con auxiliares de pipeteo.',
+      'Disponen de un émbolo que se manipula con el dedo pulgar, el cual permite que el líquido sea aspirado o expulsado. En la parte final de la pipeta automática, se coloca una punta de plástico, que se introduce en el líquido para aspirarlo. Después de la expulsión de la muestra líquida, la punta se desecha.',
+      'Recipientes graduados en forma de tubo y con distintas capacidades. Llevan una base de apoyo y un pico en el borde que facilitan el vertido del líquido. Se utilizan para medir volúmenes con un grado de aproximación bastante alto al volumen exacto.',
+      'Recipientes de distintos volúmenes, con cuello estrecho y cuerpo ancho. En el cuello, tienen la señal de aforo, que indica dónde debe llegar la parte inferior del menisco que forma el líquido con las paredes del cuello. Se utiliza para preparar disoluciones de concentraciones perfectamente conocidas.',
+      'Recipientes de boca y cuerpo ancho. En su pared, aparece una escala graduada aproximada, ya que no se usa para realizar mediciones exactas, sino para distintas operaciones de laboratorio, como preparar disoluciones, contener productos líquidos, etc.',
+      'De distintos tamaños, forma cónica y pico largo, y biselado o corto, según se utilicen para líquidos o polvos, respectivamente.',
+      'Con fondo plano y ancho, cuello corto y distintas capacidades. Sirven para diluir reactivos y preservar las salpicaduras procedentes de reacciones químicas que se produzcan en su interior.',
+      'Pueden ser de vidrio o plástico. Se utilizan para pesar sólidos y pueden tener diferentes tamaños.',
+      'Formados por un bastidor al que se sujetan una serie de hilos entrecruzados de acero, nailon o bronce. Los tamices se clasifican por la abertura de malla, que no es más que la distancia entre dos hilos continuos.',
+    ],
   }),
   mounted() {
     this.$nextTick(() => {
@@ -755,4 +812,18 @@ export default {
         border: none
       .slyder-a__bullets__item--active
         background-color: #FF9D00
+.modal-tarjeta
+  .modal-a__content
+    max-width: 450px
+    background-color: #EAE3FF
+    border-radius: 0
+    padding-right: 2rem !important
+    padding-left: 2rem !important
+    .modal-a__close-btn
+      right: 0
+      top: 0
+      width: 35px
+      height: 35px
+      background-color: #FF9D00
+      border-radius: 0
 </style>
