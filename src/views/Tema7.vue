@@ -20,10 +20,10 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.texto-blanco.mb-1 Procedimiento de elaboración y control
-              p.texto-blanco.text-small Para mayor profundización en el tema, se invita al aprendiz a consultar el siguiente documento donde se encontrará un ejemplo de un procedimiento que aplica al proceso descrito.
+              h3.texto-blanco.mb-1 Formato hallazgos de auditorías internas.
+              p.texto-blanco.text-small Para entender cómo deben ser los formatos para diligenciar, se invita al aprendiz a revisar el documento, ubicado en la sección material complementario.
             .col-sm-auto
-              a.boton.color-acento-bottones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-bottones(:href="obtenerLink('downloads/OKEst_Anexo5_CF023_Reporte_hallazgos.xlsx')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
     
@@ -34,10 +34,10 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.texto-blanco.mb-1 Farmacia comunitaria
-              p.texto-blanco.text-small Con el fin de profundizar en el tema del proceso de elaboración de una preparación magistral en sus diferentes etapas, se invita al aprendiz a consultar el video Farmacia Comunitaria, ubicado en el material complementario.
+              h3.texto-blanco.mb-1 Formato de acciones correctivas, preventivas y de mejora. Ejemplo.
+              p.texto-blanco.text-small Para entender cómo deben ser los formatos para diligenciar, se invita al aprendiz a revisar el documento, ubicado en la sección material complementario.
             .col-sm-auto
-              a.boton.color-acento-bottones.d-flex.justify-content-between(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" style="min-width: 122px")
+              a.boton.color-acento-bottones.d-flex.justify-content-between(:href="obtenerLink('downloads/OKEst_Anexo4_CF023_GI_F_Acciones_Correctivas_preventivas_y_de_mejora_(vacio).xlsx')" target="_blank" style="min-width: 122px")
                 span Descargar
                 i.fas.fa-file-download
     
@@ -48,10 +48,10 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.texto-blanco.mb-1 Procedimiento de elaboración y control
-              p.texto-blanco.text-small Para mayor profundización en el tema, se invita al aprendiz a consultar el siguiente documento donde se encontrará un ejemplo de un procedimiento que aplica al proceso descrito.
+              h3.texto-blanco.mb-1 Formato de acciones correctivas, preventivas y de mejora (vacío).
+              p.texto-blanco.text-small Para entender cómo deben ser los formatos para diligenciar, se invita al aprendiz a revisar el documento, ubicado en la sección material complementario.
             .col-sm-auto
-              a.boton.color-acento-bottones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-bottones(:href="obtenerLink('downloads/OKEst_Anexo3_CF023_GI_F_Acciones_Correctivas_preventivas_y_de_mejora_(Ejemplo).xlsx')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 </template>

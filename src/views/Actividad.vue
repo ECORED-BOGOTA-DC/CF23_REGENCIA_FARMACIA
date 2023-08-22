@@ -10,7 +10,7 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Auditorias y mejora continua en el proceso de elaboración de productos farmacéuticos.
+          h2 Auditorías y mejora continua en el proceso de elaboración de productos farmacéuticos.
         p.mb-4 Manejar los requisitos mínimos y estándares establecidos en el sistema de gestión de calidad del proceso de elaboración de productos magistrales, con la finalidad de que este sea un proceso de calidad y mejora continua.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            

@@ -101,7 +101,7 @@
               p.mb-0.ps-2 Registros que se generan.
             li.d-flex.mb-0.align-items-start
               img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
-              p.mb-0.ps-2 Anexos (en caso de que apliquen) .
+              p.mb-0.ps-2 Anexos (en caso de que apliquen).
         .col-lg-7.order-1.order-lg-2.mb-4.my-lg-auto
           img.m-auto(src="@/assets/curso/temas/tema5/img-1.png" style="max-width: 715px")
 
@@ -129,7 +129,7 @@
               h3.texto-blanco.mb-1 Farmacia comunitaria
               p.texto-blanco.text-small Con el fin de profundizar en el tema del proceso de elaboración de una preparación magistral en sus diferentes etapas, se invita al aprendiz a consultar el video Farmacia Comunitaria, ubicado en el material complementario.
             .col-sm-auto
-              a.boton.color-acento-bottones.d-flex.justify-content-between(:href="''" target="_blank" style="min-width: 122px")
+              a.boton.color-acento-bottones.d-flex.justify-content-between(href="https://www.youtube.com/watch?v=207Fe-M_5K4" target="_blank" style="min-width: 122px")
                 span Ver
                 i.fas.fa-link
 
@@ -626,42 +626,42 @@
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-13.jpg")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 12")
-              p.fw-bold.mb-0.text-center(style="font-size: 13px") Balanzas de precisión 
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Pipetas graduadas 
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-14.jpg")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 13")
-              p.fw-bold.mb-0.text-center(style="font-size: 13px") Morteros de vidrio 
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Pipetas automáticas 
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-15.jpg")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 14")
-              p.fw-bold.mb-0.text-center(style="font-size: 13px") Baño termostático
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Probetas
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-16.jpg")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 15")
-              p.fw-bold.mb-0.text-center(style="font-size: 13px") Auxiliares de pipeteo
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Matraces aforados
         
         .d-flex.flex-wrap
           h4.w-100.text-center.mb-4 Material diverso
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-17.jpg")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 16")
-              p.fw-bold.mb-0.text-center(style="font-size: 13px") Balanzas de precisión 
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Vasos de precipitados
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-18.jpg")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 17")
-              p.fw-bold.mb-0.text-center(style="font-size: 13px") Morteros de vidrio 
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Embudos
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-19.jpg")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 18")
-              p.fw-bold.mb-0.text-center(style="font-size: 13px") Baño termostático
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Matraces Erlenmeyer 
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-20.jpg")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 19")
-              p.fw-bold.mb-0.text-center(style="font-size: 13px") Auxiliares de pipeteo 
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Tamices para polvo
           .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-21.jpg")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 20")
-              p.fw-bold.mb-0.text-center(style="font-size: 13px") Auxiliares de pipeteo
+              p.fw-bold.mb-0.text-center(style="font-size: 13px") Vidrio de reloj 
     
     .tarjeta.color-secundario.p-3.mb-5.col-xl-10.mx-auto
       .row.justify-content-around.align-items-center
@@ -696,12 +696,12 @@ export default {
     indexTarjeta: 0,
     titlesTarjeta: [
       'Balanzas de precisión que pesen desde 1 mg a 2 kg.',
-      'Baño termostático.',
       'Morteros de vidrio y porcelana.',
+      'Baño termostático.',
       'Auxiliares de pipeteo y varillas.',
       'Agitadores magnéticos y de hélice.',
-      'Placas calefactoras.',
       'Espátulas de metal y de goma.',
+      'Placas calefactoras.',
       'pH-metro.',
       'Lente de aumento.',
       'Termómetros.',
@@ -719,12 +719,12 @@ export default {
     ],
     descriptionTarjeta: [
       'Disponen de un plato que puede ir protegido por paredes de vidrio, sobre este se pone el objeto a pesar en el interior del recipiente adecuado. El peso aparecerá en la pantalla digital.',
-      'Llevan en su interior una resistencia eléctrica que calienta el agua hasta una temperatura prefijada por un termostato. Pueden disponer de algún mecanismo que remueva el agua para que el calentamiento sea homogéneo.',
       'Tienen forma de cuenco y cuentan con un pico en el borde para el desalojo de su contenido. La mano o pistilo sirven para pulverizar, realizar mezclas, homogeneizar y amasar.',
+      'Llevan en su interior una resistencia eléctrica que calienta el agua hasta una temperatura prefijada por un termostato. Pueden disponer de algún mecanismo que remueva el agua para que el calentamiento sea homogéneo.',
       'Los pipeteadores o auxiliares de pipeteo se utilizan acoplados a las pipetas manuales. Si sirven de un émbolo para realizar la aspiración de los líquidos. Las varillas de vidrio para agitar son tubos de vidrio macizos de diferentes tamaños; se utilizan para realizar mezclas.',
       'Sirven para acelerar la mezcla de los componentes de una disolución. En los agitadores magnéticos se introducen imanes en las disoluciones para que se mezclen correctamente los componentes.',
-      'Constan de una superficie que proporciona calor seco para concentrar las disoluciones, evaporar disolventes o simplemente alcanzar una temperatura adecuada para un procedimiento de elaboración determinado. Pueden llevar agitación incorporada. En la imagen, se ve una placa de calefactores con agitación.',
       'Su finalidad es separar fracciones de sólido o recoger distintos tipos de productos acabados en formulación magistral.',
+      'Constan de una superficie que proporciona calor seco para concentrar las disoluciones, evaporar disolventes o simplemente alcanzar una temperatura adecuada para un procedimiento de elaboración determinado. Pueden llevar agitación incorporada. En la imagen, se ve una placa de calefactores con agitación.',
       'Sirve para medir la concentración de hidrogeniones de una solución. El pH-metro mide la diferencia de potencial que originan los iones hidrógeno (H+) de la solución problema con respecto a la solución de referencia.',
       'Sirve para aumentar el tamaño de la imagen de la muestra que se quiere estudiar. Una vez colocada esta debajo de la lente, se mira a través de los oculares para apreciar el aumento del tamaño de esta y detalles que a simple vista pasan desapercibidos.',
       'Tubo capilar en cuya parte inferior se encuentra un depósito lleno de mercurio. Al calentarse, el mercurio asciende por el capilar, marcando la temperatura.',

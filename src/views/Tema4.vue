@@ -7,7 +7,7 @@
         span 4
       h1 Sistema de gestión preparaciones magistrales
 
-    .container-100.d-flex.flex-wrap.align-items-center.mb-5.py-3(
+    .container-100.d-flex.flex-wrap.align-items-center.mb-4.py-3(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-2.svg')})`}"
       style="background-repeat: no-repeat; background-position: top;"
     )

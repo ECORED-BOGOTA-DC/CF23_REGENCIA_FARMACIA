@@ -9,10 +9,6 @@
           i.fas.fa-info
       h1 Introducción
     
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
     .d-flex.flex-wrap.align-items-center.mb-5
       .col-lg-7.pe-lg-4.order-2.order-lg-1
         p En Colombia, se cuenta con una alta gama de medicamentos para atender las necesidades de salud de la población, sin embargo, hay momentos donde no se cuenta con la presentación o formulación específica requerida para tratar la patología del paciente. De esta necesidad, es de donde surgen las preparaciones magistrales estériles y no estériles. 

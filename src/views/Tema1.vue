@@ -20,14 +20,14 @@
         .bloque-texto-d.p-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3 Es una herramienta de gestión sistemática y transparente, que permite dirigir y evaluar el desempeño del servicio farmacéutico, en términos de calidad y satisfacción social en la prestación de los servicios a su cargo, la cual está enmarcada en los planes estratégicos y de desarrollo de las organizaciones a que pertenece el servicio. El Sistema de Gestión de la Calidad adoptará, en cada servicio, un enfoque basado en los procesos que ofrezca y en las expectativas de los usuarios, destinatarios y beneficiarios de este
+            h3 Una herramienta de gestión sistemática y transparente, que permite dirigir y evaluar el desempeño del servicio farmacéutico, en términos de calidad y satisfacción social en la prestación de los servicios a su cargo, la cual está enmarcada en los planes estratégicos y de desarrollo de las organizaciones a que pertenece el servicio. El Sistema de Gestión de la Calidad adoptará, en cada servicio, un enfoque basado en los procesos que ofrezca y en las expectativas de los usuarios, destinatarios y beneficiarios de este
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h6.mb-0 (Resolución 1403 de 2007- Artículo 17 Sistema de Gestión de la Calidad).
       .col-lg-4.mx-auto
         img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema1/img-2.png" style="max-width: 284px")
 
-    p.mb-5 La normatividad legal vigente para establecimientos y servicios farmacéuticos requiere que el SGC tenga un enfoque basado en procesos. <b>La Norma ISO 9001 del 2008</b> define dicho enfoque como
+    p.mb-5 La normatividad legal vigente para establecimientos y servicios farmacéuticos requiere que el SGC tenga un enfoque basado en procesos. <b>La Norma ISO 9001 del 2008</b> define dicho enfoque como:
 
     .d-flex.flex-wrap.mb-5
       .col-lg-8.order-2.order-lg-1.pe-lg-4
