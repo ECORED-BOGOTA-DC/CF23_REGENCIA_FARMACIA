@@ -529,7 +529,7 @@
       p Para las preparaciones no estériles se requieren equipos e instrumentos, que deben cumplir con requerimientos relacionados con el mantenimiento, limpieza, exactitud y precisión en la medición, ser los adecuados para el tipo de productos, escalas de medición adecuadas.
       p.mb-4 Dentro de los equipos e instrumentos fundamentales, están los siguientes:
       .d-flex.flex-wrap.mb-4.w-100
-        .col-lg-6.pe-lg-4.order-2.order-lg-1
+        .col-lg-4.col-xl-3.pe-lg-4.order-2.order-lg-1
           ul.lista-ul--color.mb-0
             li.d-flex.align-items-start.mb-1
               img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
@@ -564,8 +564,8 @@
             li.d-flex.align-items-start.mb-1
               img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Reenvasador
-        .col-lg-6.order-1.order-lg-2
-          img.mx-auto(src="@/assets/curso/temas/tema5/img-25.svg" style="max-width: 572px")
+        .col-lg-8.col-xl-9.order-1.order-lg-2
+          img.mx-auto(src="@/assets/curso/temas/tema5/img-25.svg" style="max-width: 925px")
       p En las siguientes figuras, se podrán visualizar algunos de estos equipos e implementos, sus características y funciones.
     
     .p-4.mb-5(style="background-color: #E8EEFA")
