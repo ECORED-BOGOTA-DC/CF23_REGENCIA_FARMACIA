@@ -14,13 +14,13 @@
       .col-lg-8.mb-lg-5
         p A continuación, se presenta un mapa donde se pueden observar todos los procesos del establecimiento farmacéutico de forma secuencial, resaltando dónde se encuentra el proceso de preparaciones magistrales.
       .col-lg-4.mx-auto
-        img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema4/img-1.png" style="max-width: 284px")
+        img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema4/img-1.png" style="max-width: 284px" alt="imagen decorativa")
     
     .titulo-sexto.color-acento-botones.mb-5
       h5 Figura 1
       span.d-block Procesos de los establecimientos farmacéuticos
     
-    img(src="@/assets/curso/temas/tema4/img-2.svg")
+    img(src="@/assets/curso/temas/tema4/img-2.svg" alt="Esquema que los procesos inmersos en los establecimientos farmacéuticos, distribuidos así: Necesidades de los clientes Proceso estratégico Direccionamiento estratégico Procesos misionales Prestación del servicio Mercadeo y compras Procesos generales Proceso de selección Procesos de adquisición Proceso de recepción Proceso de almacenamiento Proceso de dispensación Preparaciones magistrales no estériles Proceso de distribución Procesos de apoyo Gestión de calidad Administración y gestión del talento humano Financiero Clientes satisfechos")
 </template>
 
 <script>

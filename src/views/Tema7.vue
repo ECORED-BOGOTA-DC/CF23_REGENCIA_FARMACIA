@@ -9,14 +9,14 @@
 
     .d-flex.flex-wrap.align-items-center.mb-5
       .col-lg-8.mb-4.my-lg-auto
-        img.m-auto(src="@/assets/curso/temas/tema7/img-1.jpg" style="max-width: 820px")
+        img.m-auto(src="@/assets/curso/temas/tema7/img-1.jpg" style="max-width: 820px" alt="Imagen decorativa") 
       .tarjeta.tarjeta-edit-6.p-4.col-lg-4
         p.mb-2 La realización de las auditorías deja como resultado unos hallazgos que indican si lo auditado está conforme o no conforme y, a partir de esos resultados, se implementan acciones de mejora ante lo que no esté conforme, y se procede a tomar medidas correctivas e implementar preventivas para evitar que vuelva a pasar.
     
     .tarjeta.color-secundario.p-3.mb-5.col-xl-10.mx-auto
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema7/img-2.svg")
+          img(src="@/assets/curso/temas/tema7/img-2.svg" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -30,7 +30,7 @@
     .tarjeta.color-secundario.p-3.mb-5.col-xl-10.mx-auto
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema7/img-2.svg")
+          img(src="@/assets/curso/temas/tema7/img-2.svg" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -44,7 +44,7 @@
     .tarjeta.color-secundario.p-3.mb-5.col-xl-10.mx-auto
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema7/img-2.svg")
+          img(src="@/assets/curso/temas/tema7/img-2.svg" alt="Imagen decorativa")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0

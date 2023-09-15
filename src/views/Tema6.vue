@@ -17,7 +17,7 @@
         p El procedimiento de auditoría se realiza mediante una lista de chequeo, que permite verificar el cumplimiento de una serie de requisitos dentro de la empresa.
 
       .col-lg-4.mx-auto.mx-lg-0
-        img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema6/img-1.png" style="max-width: 284px")
+        img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema6/img-1.png" style="max-width: 284px" alt="Imagen decorativa")
 
 </template>
 

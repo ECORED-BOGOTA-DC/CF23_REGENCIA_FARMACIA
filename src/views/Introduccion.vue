@@ -20,7 +20,7 @@
 
         p A continuación, se abordan una serie de temas relacionados con la aplicación de acciones de mejora continua en el proceso de elaboración de preparaciones magistrales tópicas no estériles, según resultados del proceso de verificación. 
       .col-lg-5.order-1.order-lg-2.mb-4.mb-lg-auto.mx-auto
-        img(src="@/assets/curso/temas/img-1.svg" style="max-width: 432px;")
+        img(src="@/assets/curso/temas/img-1.svg" style="max-width: 432px;" alt="imagen decorativa")
 
 </template>
 

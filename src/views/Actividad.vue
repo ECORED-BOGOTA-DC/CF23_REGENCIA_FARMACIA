@@ -7,7 +7,7 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/falso-verdadero.svg", alt="imagen para actividad de falso y verdadero, Cuestionario")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Auditorías y mejora continua en el proceso de elaboración de productos farmacéuticos.

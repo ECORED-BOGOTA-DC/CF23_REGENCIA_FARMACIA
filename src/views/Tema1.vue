@@ -8,7 +8,7 @@
       h1 Sistema de Gestión de la Calidad (SGC)
     
     .container-img-text.col-xl-10.mx-auto.mb-5
-      img.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema1/img-1.svg" style="max-width: 388px")
+      img.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema1/img-1.svg" style="max-width: 388px" alt="imagen decorativa")
       .tarjeta.tarjeta-img-text
         p.mb-0 El SGC es una determinación que toma la empresa como estrategia, con el propósito de documentar todas las actividades y mejorar continuamente su desempeño.
 
@@ -25,7 +25,7 @@
           .bloque-texto-d__autor 
             .h6.mb-0 (Resolución 1403 de 2007- Artículo 17 Sistema de Gestión de la Calidad).
       .col-lg-4.mx-auto
-        img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema1/img-2.png" style="max-width: 284px")
+        img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema1/img-2.png" style="max-width: 284px" alt="imagen decorativa")
 
     p.mb-5 La normatividad legal vigente para establecimientos y servicios farmacéuticos requiere que el SGC tenga un enfoque basado en procesos. <b>La Norma ISO 9001 del 2008</b> define dicho enfoque como:
 
@@ -40,7 +40,7 @@
         .cajon.color-secundario.p-4.mb-4.mb-lg-0(style="background-color: #E4DDFA")
           p Cabe aclarar que cada uno de los requisitos planteados en la Norma ISO-9001 aplica para todas las empresas u organizaciones, independientemente del tipo, tamaño y productos y/o servicios proporcionados.
       .col-lg-4.mx-auto.mt-auto.order-1.order-lg-2
-        img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema1/img-3.svg" style="max-width: 373px")
+        img.mb-4.mb-md-auto.mx-auto.me-lg-0(src="@/assets/curso/temas/tema1/img-3.svg" style="max-width: 373px" alt="imagen decorativa")
 
     .container-100.d-flex.flex-wrap.mb-5.py-5(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-2.svg')})`}"
@@ -50,7 +50,7 @@
       p.mb-5 La implementación de un SGC basado en la Norma ISO- 9001, para cualquier organización, trae varios beneficios, como son:
       .d-flex.flex-wrap
         .col-lg-4.mt-auto
-          img.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema1/img-4.svg" style="max-width: 402px")
+          img.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema1/img-4.svg" style="max-width: 402px" alt="imagen decorativa")
         .col-lg-8.ps-lg-4
           .d-flex.flex-wrap.mb-4
             .col-md-6.col-xl.mb-4.mb-xl-0.d-flex
@@ -90,7 +90,7 @@
       ImagenInfografica.color-secundario.mx-auto.infografia-edit
         template(v-slot:imagen)
           figure
-            img.mx-auto(src="@/assets/curso/temas/tema1/img-5.svg" style="max-width: 402px; filter: drop-shadow(2px 8px 6px #00000010);")
+            img.mx-auto(src="@/assets/curso/temas/tema1/img-5.svg" style="max-width: 402px; filter: drop-shadow(2px 8px 6px #00000010);" alt="ciclo PHVA planificar, hacer, verificar y Actuar")
 
         .tarjeta.p-3(x="29%" y="29.5%" numero="" style="background-color: #E4DEF4")
           b Actuar
@@ -119,7 +119,7 @@
             p La razón de ser de cualquier empresa son los clientes, por lo tanto, es de vital importancia conocer y entender las necesidades de estos, actuales y a futuro, de manera que se puedan ofrecer las soluciones pertinentes al caso e intentar superar sus expectativas. Ante ello, es importante tener presente que las necesidades de los consumidores son cambiantes a medida que pasa el tiempo, lo que conlleva que cada vez el cliente sea más exigente y esté mucho más informado.
           .col-md-7
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema1/tbc-1.svg' style="max-width: 610px")
+              img.mx-auto(src='@/assets/curso/temas/tema1/tbc-1.svg' style="max-width: 610px" alt="imagen decorativa")
       .py-3.py-md-4(titulo="Liderazgo")
         .row.col-xl-11.mx-auto
           .col-md-5.mb-4.mb-md-0
@@ -127,7 +127,7 @@
             p En toda empresa, debe haber líderes que orienten al recurso humano, que creen y mantengan un ambiente laboral óptimo que impulse a todo el equipo de trabajo a buscar el logro de los objetivos de la empresa. El liderazgo es una cadena que involucra a todo el personal, sin excepción, que labora en la empresa.
           .col-md-7
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema1/tbc-2.svg' style="max-width: 610px")
+              img.mx-auto(src='@/assets/curso/temas/tema1/tbc-2.svg' style="max-width: 610px" alt="imagen decorativa")
       .py-3.py-md-4(titulo="Compromiso")
         .row.col-xl-11.mx-auto
           .col-md-5.mb-4.mb-md-0
@@ -135,7 +135,7 @@
             p El buen funcionamiento y logro de objetivos de cualquier organización está en manos del personal que labora en ella, por lo cual, contar con un recurso humano comprometido posibilita el logro de estos. La motivación, <b>los incentivos</b> y los reconocimientos al personal favorecen el compromiso de estos.
           .col-md-7
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema1/tbc-3.svg' style="max-width: 610px")
+              img.mx-auto(src='@/assets/curso/temas/tema1/tbc-3.svg' style="max-width: 610px" alt="imagen decorativa")
       .py-3.py-md-4(titulo="Mejora")
         .row.col-xl-11.mx-auto
           .col-md-5.mb-4.mb-md-0
@@ -143,7 +143,7 @@
             p La mejora continua debe ser un objetivo <b>inalterable</b> dentro de toda organización.
           .col-md-7
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema1/tbc-4.svg' style="max-width: 610px")
+              img.mx-auto(src='@/assets/curso/temas/tema1/tbc-4.svg' style="max-width: 610px" alt="imagen decorativa")
       .py-3.py-md-4(titulo="Decisiones")
         .row.col-xl-11.mx-auto
           .col-md-5.mb-4.mb-md-0
@@ -151,7 +151,7 @@
             p Las buenas decisiones solo se pueden tomar cuando se tiene información clara, concisa y veraz; por lo tanto, estas deben estar centradas en el análisis de datos e información obtenida.
           .col-md-7
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema1/tbc-5.svg' style="max-width: 610px")
+              img.mx-auto(src='@/assets/curso/temas/tema1/tbc-5.svg' style="max-width: 610px" alt="imagen decorativa")
       .py-3.py-md-4(titulo="Gestión")
         .row.col-xl-11.mx-auto
           .col-md-5.mb-4.mb-md-0
@@ -159,7 +159,7 @@
             p Este principio está enfocado en la relación con los proveedores, ya que crear alianzas estratégicas con ellos contribuye a que la empresa sea más competitiva, mejore la productividad y, por ende, aumente la rentabilidad. Las alianzas siempre son benéficas tanto para la empresa como para los proveedores.
           .col-md-7
             figure
-              img.mx-auto(src='@/assets/curso/temas/tema1/tbc-6.svg' style="max-width: 610px")
+              img.mx-auto(src='@/assets/curso/temas/tema1/tbc-6.svg' style="max-width: 610px" alt="imagen decorativa")
 
 </template>
 

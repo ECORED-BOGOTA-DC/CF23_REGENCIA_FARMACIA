@@ -37,12 +37,12 @@
             p <b>Formato:</b> es el conjunto de las características técnicas y de presentación de un texto, objeto o documento en distintos ámbitos, tanto reales como virtuales.
           
         .mb-5.mb-lg-auto.col-lg-4.mx-auto.mt-auto.order-1.order-lg-2.ps-lg-4
-          img(src="@/assets/curso/temas/tema2/img-1.svg" style="max-width: 397px")
+          img(src="@/assets/curso/temas/tema2/img-1.svg" style="max-width: 397px" alt="imagen decorativa")
     
     .d-flex.flex-wrap.mb-4
       .d-flex.flex-wrap
         .mb-5.mb-lg-auto.col-lg-4.mx-auto.mt-auto.pe-lg-4
-          img(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 397px")
+          img(src="@/assets/curso/temas/tema2/img-2.svg" style="max-width: 397px" alt="imagen decorativa")
         ol.col-lg-8.lista-ol--cuadro.lista-ol--separador
           li 
             .lista-ol--cuadro__vineta
@@ -95,7 +95,7 @@
 
           
         .mb-5.mb-lg-auto.col-lg-4.mx-auto.mt-auto.order-1.order-lg-2.ps-lg-4
-          img(src="@/assets/curso/temas/tema2/img-3.svg" style="max-width: 397px")
+          img(src="@/assets/curso/temas/tema2/img-3.svg" style="max-width: 397px" alt="imagen decorativa")
 
 </template>
 
