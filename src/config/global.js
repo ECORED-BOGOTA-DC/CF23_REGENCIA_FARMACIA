@@ -321,13 +321,13 @@ export default {
         },
         {
           nombre: 'Gloria Amparo López Escudero',
-          cargo: 'Gloria Amparo López Escudero',
+          cargo: 'Adecuación instruccional',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Gloria Amparo López Escudero',
-          cargo: 'Gloria Amparo López Escudero',
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Metodología para la formación virtual',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
