@@ -6,7 +6,12 @@ export default {
       'En este componente formativo, se abordan los conocimientos de la competencia preparar productos farmacéuticos magistrales tópicos según prescripción médica y normativa de salud, con el reconocimiento de los hallazgos durante las auditorías y la aplicación de las acciones de mejora continua en el proceso de elaboración de preparaciones magistrales tópicas no estériles, según resultados del proceso de verificación.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [],
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+      },
+    ],
   },
   menuPrincipal: {
     menu: [
