@@ -2,15 +2,15 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 5
       h1 Procedimiento y formatos utilizados en el proceso
     
     .d-flex.flex-wrap.align-items-center.mb-5
-      .col-lg-7.mb-4.my-lg-auto
+      .col-lg-7.col-10.mb-lg-0.mb-4.my-lg-auto(data-aos="fade-right")
         img.m-auto(src="@/assets/curso/temas/tema5/img-1.png" style="max-width: 715px" alt="imagen decorativa")
-      .tarjeta.tarjeta-edit-5.p-4.col-lg-5
+      .tarjeta.tarjeta-edit-5.p-4.col-lg-5(data-aos="fade-left")
         p.mb-2 Las preparaciones magistrales, como cualquier otro medicamento, deben cumplir requisitos de:
         ul.lista-ul--color.mb-2
           li.d-flex.align-items-start
@@ -30,44 +30,43 @@
             p.mb-0.ps-2 Información debida
         p.mb-0 Se debe estudiar de manera muy precisa la fórmula médica, identificar si es posible su correcta elaboración, es decir, si existe una validación de la fórmula por parte del químico farmacéutico responsable.
         
-    p.mb-5 Para iniciar con el proceso de elaboración se debe cumplir con unos requisitos, que soporten el proceso y permitan que, a través de su correcta aplicación, se dé cumplimiento a las Buenas Prácticas de Elaboración (BPE), que involucran: 
+    p.mb-5(data-aos="fade-right") Para iniciar con el proceso de elaboración se debe cumplir con unos requisitos, que soporten el proceso y permitan que, a través de su correcta aplicación, se dé cumplimiento a las Buenas Prácticas de Elaboración (BPE), que involucran: 
 
     .d-flex.flex-wrap
-      .col-12.col-md-6.col-lg-4.col-xl-3
+      .col-xl-3.col-lg-4.col-md-6.col-12.mb-xl-0.mb-4(data-aos="fade-right")
         .tarjeta-edit-5_1
           span 1
           p.mb-0.text-center Materiales
-      .col-12.col-md-6.col-lg-4.col-xl-3
+      .col-xl-3.col-lg-4.col-md-6.col-12.mb-xl-0.mb-4(data-aos="flip-right")
         .tarjeta-edit-5_1
           span 2
           p.mb-0.text-center Áreas
-      .col-12.col-md-6.col-lg-4.col-xl-3
+      .col-xl-3.col-lg-4.col-md-6.col-12.mb-xl-0.mb-4(data-aos="flip-left")
         .tarjeta-edit-5_1
           span 3
           p.mb-0.text-center Equipos
-      .col-12.col-md-6.col-lg-4.col-xl-3
+      .col-xl-3.col-lg-4.col-md-6.col-12.mb-4(data-aos="fade-left")
         .tarjeta-edit-5_1
           span 4
           p.mb-0.text-center Personal idóneo
-      .col-12.col-md-6.col-lg-4.col-xl-3
+      .col-xl-3.col-lg-4.col-md-6.col-12.mb-xl-0.mb-4(data-aos="fade-right")
         .tarjeta-edit-5_1
           span 5
           p.mb-0.text-center Materias primas
-      .col-12.col-md-6.col-lg-4.col-xl-3
+      .col-xl-3.col-lg-4.col-md-6.col-12.mb-xl-0.mb-4(data-aos="flip-up")
         .tarjeta-edit-5_1
           span 6
           p.mb-0.text-center Equipos
-      .col-12.col-md-6.col-lg-4.col-xl-3
+      .col-xl-3.col-lg-4.col-md-6.col-12(data-aos="fade-left")
         .tarjeta-edit-5_1.mb-0
           span 7
           p.mb-0.text-center Documentación
-    Separador
-
-    .titulo-segundo.color-botones
-      h2#t_5_1 5.1. Procedimiento del proceso de elaboración de preparados magistrales
     
-    p.mb-5 Como todo proceso, las preparaciones magistrales deben tener como base un manual y/o procedimiento y los respectivos documentos que se generan de estos (instructivos, formatos), donde se detalle la siguiente información:
-
+    Separador
+    #t_5_1.titulo-segundo.color-botones(data-aos="fade-right")
+      h2 5.1. Procedimiento del proceso de elaboración de preparados magistrales
+    
+    p.mb-5(data-aos="fade-right") Como todo proceso, las preparaciones magistrales deben tener como base un manual y/o procedimiento y los respectivos documentos que se generan de estos (instructivos, formatos), donde se detalle la siguiente información:
 
     .container-100.d-flex.flex-wrap.align-items-center.mb-5.py-4(
       style="background: linear-gradient(135deg, rgba(0,188,212,1) 0%, rgba(55,198,228,1) 50%, rgba(129,212,250,1) 100%);"
@@ -75,37 +74,37 @@
       .col-lg-11.d-flex.flex-wrap.align-items-center
         .col-lg-5.tarjeta.tarjeta-edit-5_2.p-4.order-2.order-lg-1(style="background-color: #FFFFFF; border-bottom-left-radius: 0")
           ul.lista-ul--color.mb-0
-            li.d-flex.align-items-start
+            li.d-flex.align-items-start(data-aos="fade-right")
               img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Nombre del proceso.
-            li.d-flex.align-items-start
+            li.d-flex.align-items-start(data-aos="fade-right")
               img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Alcance.
-            li.d-flex.align-items-start
+            li.d-flex.align-items-start(data-aos="fade-right")
               img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Responsables.
-            li.d-flex.align-items-start
+            li.d-flex.align-items-start(data-aos="fade-right")
               img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Objetivo.
-            li.d-flex.align-items-start
+            li.d-flex.align-items-start(data-aos="fade-right")
               img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Glosarios y siglas.
-            li.d-flex.align-items-start
+            li.d-flex.align-items-start(data-aos="fade-right")
               img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Contenido (donde se detallan secuencialmente las actividades a realizar en orden).
-            li.d-flex.align-items-start
+            li.d-flex.align-items-start(data-aos="fade-right")
               img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Documentos de referencia.
-            li.d-flex.align-items-start
+            li.d-flex.align-items-start(data-aos="fade-right")
               img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Registros que se generan.
-            li.d-flex.mb-0.align-items-start
+            li.d-flex.mb-0.align-items-start(data-aos="fade-right")
               img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Anexos (en caso de que apliquen).
-        .col-lg-7.order-1.order-lg-2.mb-4.my-lg-auto
+        .col-lg-7.col-10.order-1.order-lg-2.mb-lg-0.mb-4.my-lg-auto(data-aos="fade-left")
           img.m-auto(src="@/assets/curso/temas/tema5/img-1.png" style="max-width: 715px" alt="imagen decorativa")
 
-    .tarjeta.color-secundario.p-3.mb-5.col-xl-10.mx-auto
+    .tarjeta.color-secundario.p-3.mb-5.col-xl-10.mx-auto(data-aos="flip-up")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/tema5/img-4.svg" alt="imagen decorativa Procedimiento de elaboración y control")
@@ -119,7 +118,7 @@
                 span Descargar
                 i.fas.fa-file-download
     
-    .tarjeta.color-secundario.p-3.mb-5.col-xl-10.mx-auto
+    .tarjeta.color-secundario.p-3.mb-5.col-xl-10.mx-auto(data-aos="flip-up")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/tema5/img-5.svg" alt="imagen decorativa Farmacia comunitaria")
@@ -133,126 +132,126 @@
                 span Ver
                 i.fas.fa-link
 
-    p.mb-5 En el siguiente flujograma, se muestran las etapas del proceso de elaboración de los preparados magistrales, desde la prescripción médica, pasando por las verificaciones de las condiciones locativas, para garantizar la pertinencia con las Buenas Prácticas de Elaboración, controles de calidad, acondicionamiento y dispensación al usuario final.
+    p.mb-5(data-aos="fade-right") En el siguiente flujograma, se muestran las etapas del proceso de elaboración de los preparados magistrales, desde la prescripción médica, pasando por las verificaciones de las condiciones locativas, para garantizar la pertinencia con las Buenas Prácticas de Elaboración, controles de calidad, acondicionamiento y dispensación al usuario final.
 
-    .titulo-sexto.color-acento-botones.mb-5
-      h5 Figura 2
-      span.d-block Flujograma proceso fabricación preparaciones magistrales
+    .titulo-sexto.color-acento-botones.mb-5(data-aos="fade-right")
+      h5 Figura 2.
+      span Flujograma proceso fabricación preparaciones magistrales
     
-    img.mb-5(src="@/assets/curso/temas/tema5/img-6.svg" alt="Flujograma del proceso de fabricación de preparaciones magistrales, el cual está compuesto por: Comunicación interdisciplinar. Prescripción médica. Indicación de un preparado oficinal. Verificación de la viabilidad galénica y/o idoneidad terapéutica. Elaboración de la fórmula magistral /preparado oficinal. Cumplimiento y requisitos  Personal. Local y utillaje. Documentación.  Materias primas y material de acondicionamiento. Controles durante la elaboración. Cumplimiento de PNT. Medidas de higiene. Manipulación de sustancias. Etiquetado correcto de productos y utillaje. Sobre producto terminado. Formas magistrales tipificadas y preparados oficinales: lo estipulado en el formulario nacional. Registro de fórmulas magistrales: características organolépticas. Envasado. Etiquetado. Fecha de caducidad. Dispensación. Libro recetario. Prospecto al paciente. Servicios asistenciales.")
+    figure.mb-5(data-aos="fade-right")
+      img(src="@/assets/curso/temas/tema5/img-6.svg" alt="Flujograma del proceso de fabricación de preparaciones magistrales, el cual está compuesto por: Comunicación interdisciplinar. Prescripción médica. Indicación de un preparado oficinal. Verificación de la viabilidad galénica y/o idoneidad terapéutica. Elaboración de la fórmula magistral /preparado oficinal. Cumplimiento y requisitos  Personal. Local y utillaje. Documentación.  Materias primas y material de acondicionamiento. Controles durante la elaboración. Cumplimiento de PNT. Medidas de higiene. Manipulación de sustancias. Etiquetado correcto de productos y utillaje. Sobre producto terminado. Formas magistrales tipificadas y preparados oficinales: lo estipulado en el formulario nacional. Registro de fórmulas magistrales: características organolépticas. Envasado. Etiquetado. Fecha de caducidad. Dispensación. Libro recetario. Prospecto al paciente. Servicios asistenciales.")
 
-    p.mb-4 En este recorrido por el proceso de elaboración de las preparaciones se tratarán los siguientes temas:
+    p.mb-4(data-aos="fade-right") En este recorrido por el proceso de elaboración de las preparaciones se tratarán los siguientes temas:
     ul.lista-ul--color
-      li.d-flex.align-items-start
+      li.d-flex.align-items-start(data-aos="fade-right")
         img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
         p.mb-0.ps-2 Requisitos del área de recepción.
-      li.d-flex.align-items-start
+      li.d-flex.align-items-start(data-aos="fade-right")
         img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
         p.mb-0.ps-2 Requisitos del área de almacenamiento.
-      li.d-flex.align-items-start
+      li.d-flex.align-items-start(data-aos="fade-right")
         img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
         p.mb-0.ps-2 Requisitos del paquete técnico de producción <em>(Batch Record)</em>: orden de producción, despeje de línea inicial, procedimiento de elaboración, producto en proceso, despeje de línea final, lista de chequeo de proceso de llenado, limpieza de equipos.
-      li.d-flex.align-items-start
+      li.d-flex.align-items-start(data-aos="fade-right")
         img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
         p.mb-0.ps-2 Equipos necesarios para el proceso de elaboración.
     
     Separador
-
-    .titulo-segundo.color-botones
-      h2#t_5_2 5.2. Requisitos área de recepción y almacenamiento de las preparaciones magistrales
+    #t_5_2.titulo-segundo.color-botones(data-aos="fade-right")
+      h2 5.2. Requisitos área de recepción y almacenamiento de las preparaciones magistrales
     
     .container-100.d-flex.flex-wrap.align-items-center.mb-5.py-5(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-2.svg')})`}"
       style="background-repeat: no-repeat; background-position: top;"
     )
-      p.mb-5 El área para la recepción de materias primas y materiales de acondicionamiento debe ser independiente del área de fabricación que debe estar identificada y debe contar con las zonas delimitadas de ingresos, cuarentena y material rechazado.
+      p.mb-5(data-aos="fade-right") El área para la recepción de materias primas y materiales de acondicionamiento debe ser independiente del área de fabricación que debe estar identificada y debe contar con las zonas delimitadas de ingresos, cuarentena y material rechazado.
       .col-lg-10.col-xl-6.mx-auto
-        .titulo-sexto.color-acento-botones.mb-4
-          h5 Figura 3
-          span.d-block Área de recepción y almacenamiento
-        
-        img.mb-5(src="@/assets/curso/temas/tema5/img-7.jpg" alt="Figura que muestra imágenes representativas del área administrativa (oficina), área de almacenamiento (bodega con productos) y recepción y distribución (persona recibiendo una entrega).")
+        .titulo-sexto.color-acento-botones.mb-4(data-aos="fade-right")
+          h5 Figura 3.
+          span Área de recepción y almacenamiento
+        figure(data-aos="zoom-in")
+          img.mb-5(src="@/assets/curso/temas/tema5/img-7.jpg" alt="Figura que muestra imágenes representativas del área administrativa (oficina), área de almacenamiento (bodega con productos) y recepción y distribución (persona recibiendo una entrega).")
     
-    p Los requisitos del área de recepción y almacenamiento de materias primas son:
+    p(data-aos="fade-right") Los requisitos del área de recepción y almacenamiento de materias primas son:
 
     .container-100.d-flex.flex-wrap.py-5(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/bg-1.svg')})`}"
       style="background-repeat: no-repeat; background-position: bottom;"
     )
       .d-flex.flex-wrap.mb-4
-        .col-md-6.col-xl-4.mb-4.d-flex
+        .col-md-6.col-xl-4.mb-4.d-flex(data-aos="fade-right")
           .tarjeta-numerada.color-acento-contenido.p-5
             .tarjeta-numerada__numero
               .h2 1
             p.mb-0 El área de almacenamiento de materias primas y material de acondicionamiento debe ser de acceso restringido para personas ajenas al establecimiento; asimismo, debe ser de fácil limpieza, equipado con mobiliario adecuado para este fin, con una separación mínima de 20 cm del suelo y del techo que facilite su limpieza y garantice la protección del polvo y la luz (si aplica).
 
-        .col-md-6.col-xl-4.mb-4.d-flex
+        .col-md-6.col-xl-4.mb-4.d-flex(data-aos="flip-up")
           .tarjeta-numerada.color-acento-contenido.p-5
             .tarjeta-numerada__numero
               .h2 2
             p Debe contar con un refrigerador para los productos que requieran refrigeración que incluya un termómetro y los registros de temperatura correspondientes, con sus límites de alerta y de acción.
 
-        .col-md-6.col-xl-4.mb-4.d-flex
+        .col-md-6.col-xl-4.mb-4.d-flex(data-aos="fade-left")
           .tarjeta-numerada.color-acento-contenido.p-5
             .tarjeta-numerada__numero
               .h2 3
             p Las áreas destinadas para el almacenamiento de especialidades farmacéuticas deberán estar separadas y ser completamente independientes. 
 
-        .col-md-6.col-xl-4.mb-4.d-flex
+        .col-md-6.col-xl-4.mb-4.d-flex(data-aos="fade-right")
           .tarjeta-numerada.color-acento-contenido.p-5
             .tarjeta-numerada__numero
               .h2 4
             p.mb-0 El mobiliario para el resguardo del material de acondicionamiento debe ser adecuado para evitar su contaminación y que se ponga directamente en el piso.
 
-        .col-md-6.col-xl-4.mb-4.d-flex
+        .col-md-6.col-xl-4.mb-4.d-flex(data-aos="fade-left")
           .tarjeta-numerada.color-acento-contenido.p-5
             .tarjeta-numerada__numero
               .h2 5
             p Las etiquetas deben estar almacenadas en un lugar protegido de la humedad y de acceso controlado.
             
-        .col-md-6.col-xl-4.mb-4.d-none.d-md-flex.ps-4
+        .col-md-6.col-xl-4.mb-4.d-none.d-md-flex.ps-4(data-aos="fade-left")
           img.ms-auto(src="@/assets/curso/temas/tema5/img-8.svg" style="max-width: 295px" alt="imagen decorativa")
+    
     Separador
-
-    .titulo-segundo.color-botones
-      h2#t_5_3 5.3. Paquete técnico de producción <em>(Batch Record)</em>
+    #t_5_3.titulo-segundo.color-botones(data-aos="fade-right")
+      h2 5.3. Paquete técnico de producción <em>(Batch Record)</em>
     
     .d-flex.flex-wrap.mb-5
       img.my-auto.col-lg-4.m-auto(src="@/assets/curso/temas/tema5/img-9.jpg" style="max-width: 428px" alt="imagen decorativa")
       .col-12.col-lg-4.d-flex.flex-wrap.p-4.py-lg-3(style="background-color: #D3EFFC")
-        p En este paquete tan importante dentro del proceso de elaboración de los productos farmacéuticos, es donde se dejan evidencias de todas las etapas necesarias, se consignan registros como: 
+        p(data-aos="fade-right") En este paquete tan importante dentro del proceso de elaboración de los productos farmacéuticos, es donde se dejan evidencias de todas las etapas necesarias, se consignan registros como: 
         ul.lista-ul--color.mb-0
-          li.d-flex.align-items-start
+          li.d-flex.align-items-start(data-aos="fade-right")
             img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
             p.mb-0.ps-2 Orden de producción.
-          li.d-flex.align-items-start
+          li.d-flex.align-items-start(data-aos="fade-right")
             img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
             p.mb-0.ps-2 Despeje de línea inicial.
-          li.d-flex.align-items-start
+          li.d-flex.align-items-start(data-aos="fade-right")
             img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
             p.mb-0.ps-2 Procedimiento de elaboración.
-          li.d-flex.align-items-start
+          li.d-flex.align-items-start(data-aos="fade-right")
             img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
             p.mb-0.ps-2 Producto en proceso.
-          li.d-flex.align-items-start
+          li.d-flex.align-items-start(data-aos="fade-right")
             img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
             p.mb-0.ps-2 Despeje de línea final.
-          li.d-flex.align-items-start
+          li.d-flex.align-items-start(data-aos="fade-right")
             img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
             p.mb-0.ps-2 Lista de chequeo de proceso de llenado.
-          li.d-flex.mb-0.align-items-start
+          li.d-flex.mb-0.align-items-start(data-aos="fade-right")
             img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
             p.mb-0.ps-2 Limpieza de equipos.
-      img.my-auto.col-lg-4.m-auto(src="@/assets/curso/temas/tema5/img-10.jpg" style="max-width: 428px" alt="imagen decorativa")
+      img.my-auto.col-lg-4.col-8.m-auto(src="@/assets/curso/temas/tema5/img-10.jpg" style="max-width: 428px" alt="imagen decorativa")
     
-    p Cada uno de los lotes que se produzcan de un medicamento, debe tener su propio <em>Batch Record</em> y ser almacenados y controlados por el director técnico responsable del servicio o establecimiento farmacéutico. 
+    p(data-aos="fade-right") Cada uno de los lotes que se produzcan de un medicamento, debe tener su propio <em>Batch Record</em> y ser almacenados y controlados por el director técnico responsable del servicio o establecimiento farmacéutico. 
 
-    p.mb-5 En tal sentido, a continuación, se encuentran las definiciones, requisitos y responsables de este proceso:
+    p.mb-5(data-aos="fade-right") En tal sentido, a continuación, se encuentran las definiciones, requisitos y responsables de este proceso:
 
-    .p-4.mb-5(style="background-color: #F6F6F6")
+    .p-4.mb-5(style="background-color: #F6F6F6" data-aos="zoom-in")
       SlyderA.col-xl-11.mx-auto(tipo="b")
-        .row
-          .col-md-6.mb-4.mb-md-0.order-2.order-md-1
+        .row.justify-content-center
+          .col-lg-6.order-lg-1.order-2
             h4 Definiciones
             ul.lista-ul--color.mb-0
               li.d-flex.align-items-start
@@ -267,11 +266,11 @@
               li.d-flex.align-items-start
                 img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
                 p.mb-0.ps-2 <b>Lote interno (LI):</b> lote asignado por producción y gestión.
-          .col-md-6.order-1.order-md-2.mb-4.mb-md-auto
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img.mx-auto(src='@/assets/curso/temas/tema5/img-12.png' style="max-width: 408px" alt="imagen decorativa Definiciones")
-        .row
-          .col-md-6.mb-4.mb-md-0.order-2.order-md-1
+        .row.justify-content-center
+          .col-lg-6.order-lg-1.order-2
             h4 Requisitos
             ul.lista-ul--color.mb-0
               li.d-flex.align-items-start
@@ -292,12 +291,12 @@
               li.d-flex.align-items-start
                 img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
                 p.mb-0.ps-2 El personal encargado debe solicitar a su jefe inmediato el <em>Batch Record</em> para diligenciar inmediatamente le sea entregada la orden de producción.
-          .col-md-6.order-1.order-md-2.mb-4.mb-md-auto
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img.mx-auto(src='@/assets/curso/temas/tema5/img-13.png' style="max-width: 408px" alt="imagen decorativa Requisitos")
         
-        .row
-          .col-md-6.mb-4.mb-md-0.order-2.order-md-1
+        .row.justify-content-center
+          .col-lg-6.order-lg-1.order-2
             h4 Responsables
             ul.lista-ul--color.mb-0
               li.d-flex.align-items-start
@@ -315,14 +314,14 @@
               li.d-flex.align-items-start
                 img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
                 p.mb-0.ps-2 <b>Dirección técnica:</b> revisar y aprobar los <em>Batch Record</em> para la liberación de productos salvaguardados físicamente y compilar su información digitalmente, asegurándose de que se cumplan todas las normas estipuladas. 
-          .col-md-6.order-1.order-md-2.mb-4.mb-md-auto
+          .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img.mx-auto(src='@/assets/curso/temas/tema5/img-14.png' style="max-width: 408px" alt="imagen decorativa Responsables")
 
-    p.mb-5 Los documentos consignados en el Batch Record, deben guardar un orden lógico relacionado con el proceso productivo. Es importante conocer cada uno de ellos, su estructura y función:
+    p.mb-5(data-aos="fade-right") Los documentos consignados en el Batch Record, deben guardar un orden lógico relacionado con el proceso productivo. Es importante conocer cada uno de ellos, su estructura y función:
 
     .tarjeta.tarjeta--gris.p-4
-      PasosB.color-secundario
+      PasosB.color-secundario(data-aos="zoom-in")
         .row.col-xl-11.mx-auto
           .col-lg-6.mb-4.mb-lg-0.pt-4
             h3 Orden de producción
@@ -518,57 +517,56 @@
           img.mx-auto(src="@/assets/curso/temas/tema5/img-23.svg" alt="Imagen con una tabla que representa un formato de conciliación de materiales, donde se destaca la siguiente información: Fecha Stock material O. Factory Cantidad devuelta (buena calidad) Responsable entrega Responsable recibe Cantidad rechazada Causal* Responsable recibe Cantidad rechazada Reposición *En la columna causal se debe especificar el número de alguno de los siguientes defectos: 1 Error de impresión 2 Golpe 3 Rayones 4 Quebrado roto 5 Dimensiones erróneas 6 Contaminación 7 Por proceso 8 Otro:")
     
     Separador
-
-    .titulo-segundo.color-botones
-      h2#t_5_4 5.4 Equipos requeridos para las preparaciones magistrales tópicas no estériles
+    #t_5_4.titulo-segundo.color-botones(data-aos="fade-right")
+      h2 5.4 Equipos requeridos para las preparaciones magistrales tópicas no estériles
     
     .container-100.d-flex.flex-wrap.align-items-center.mb-5.py-5(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/bg-1.svg')})`}"
       style="background-repeat: no-repeat; background-position: center;"
     )
-      p Para las preparaciones no estériles se requieren equipos e instrumentos, que deben cumplir con requerimientos relacionados con el mantenimiento, limpieza, exactitud y precisión en la medición, ser los adecuados para el tipo de productos, escalas de medición adecuadas.
-      p.mb-4 Dentro de los equipos e instrumentos fundamentales, están los siguientes:
+      p(data-aos="fade-right") Para las preparaciones no estériles se requieren equipos e instrumentos, que deben cumplir con requerimientos relacionados con el mantenimiento, limpieza, exactitud y precisión en la medición, ser los adecuados para el tipo de productos, escalas de medición adecuadas.
+      p.mb-4(data-aos="fade-right") Dentro de los equipos e instrumentos fundamentales, están los siguientes:
       .d-flex.flex-wrap.mb-4.w-100
         .col-lg-4.col-xl-3.pe-lg-4.order-2.order-lg-1
           ul.lista-ul--color.mb-0
-            li.d-flex.align-items-start.mb-1
+            li.d-flex.align-items-start.mb-1(data-aos="fade-right")
               img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Mesa antivibratoria
-            li.d-flex.align-items-start.mb-1
+            li.d-flex.align-items-start.mb-1(data-aos="fade-right")
               img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Estanterías
-            li.d-flex.align-items-start.mb-1
+            li.d-flex.align-items-start.mb-1(data-aos="fade-right")
               img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Armarios
-            li.d-flex.align-items-start.mb-1
+            li.d-flex.align-items-start.mb-1(data-aos="fade-right")
               img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Balanzas
-            li.d-flex.align-items-start.mb-1
+            li.d-flex.align-items-start.mb-1(data-aos="fade-right")
               img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Agitadores magnéticos
-            li.d-flex.align-items-start.mb-1
+            li.d-flex.align-items-start.mb-1(data-aos="fade-right")
               img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Estufa
-            li.d-flex.align-items-start.mb-1
+            li.d-flex.align-items-start.mb-1(data-aos="fade-right")
               img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Nevera
-            li.d-flex.align-items-start.mb-1
+            li.d-flex.align-items-start.mb-1(data-aos="fade-right")
               img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 pH-metro
-            li.d-flex.align-items-start.mb-1
+            li.d-flex.align-items-start.mb-1(data-aos="fade-right")
               img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Material de vidrio
-            li.d-flex.align-items-start.mb-1
+            li.d-flex.align-items-start.mb-1(data-aos="fade-right")
               img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Baño de calor (baño María)
-            li.d-flex.align-items-start.mb-1
+            li.d-flex.align-items-start.mb-1(data-aos="fade-right")
               img.pt-1(src="@/assets/curso/temas/tema5/img-2.svg" style="max-width: 15px")
               p.mb-0.ps-2 Reenvasador
-        .col-lg-8.col-xl-9.order-1.order-lg-2
+        .col-lg-8.col-xl-9.col-10.order-1.order-lg-2.mb-lg-0.mb-4(data-aos="fade-left")
           img.mx-auto(src="@/assets/curso/temas/tema5/img-25.svg" style="max-width: 925px" alt="imagen decorativa")
-      p En las siguientes figuras, se podrán visualizar algunos de estos equipos e implementos, sus características y funciones.
+      p(data-aos="fade-right") En las siguientes figuras, se podrán visualizar algunos de estos equipos e implementos, sus características y funciones.
     
-    .p-4.mb-5(style="background-color: #E8EEFA")
+    .p-4.mb-5(style="background-color: #E8EEFA" data-aos="fade-right")
       SlyderA.col-xl-11.mx-auto.py-4(tipo="b")
         .d-flex.flex-wrap
           h4.w-100.text-center.mb-4 Equipos e implementos proceso de producción
@@ -663,7 +661,7 @@
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 20")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Vidrio de reloj 
     
-    .tarjeta.color-secundario.p-3.mb-5.col-xl-10.mx-auto
+    .tarjeta.color-secundario.p-3.mb-5.col-xl-10.mx-auto(data-aos="flip-up")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/tema5/img-26.svg" alt="Imagen decorativa")

@@ -5,10 +5,10 @@
     p.mb-5 Es indispensable contar con un control de calidad completo y ajustado a la norma para el proceso de la elaboración de preparaciones magistrales no estériles, pues es importante cumplir con los requisitos mínimos de aseguramiento donde lo más importante es prevenir los errores en la medicación ya que está en juego la seguridad del paciente. Por esta razón este componente formativo enfatizó los temas del procedimiento y las actividades de mejora tanto preventivas como correctivas en el proceso de elaboración de preparaciones magistrales tópicas no estériles, atendiendo los resultados del sistema de gestión de calidad. Los temas vistos se pueden observar en el esquema que se expone a continuación:
 
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-10.mb-5(data-aos="fade-right")
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="Esquema gráfico que resume lo abordado en el componente formativo, indicando lo relacionado con el sistema de gestión de calidad de magistrales no estériles, como lo es: Procedimiento y formatos utilizados en el proceso, los cuales deben cumplir con: Seguridad Eficacia Calidad Identificación correcta Auditorías")
-      .col-auto
+      .col-auto(data-aos="fade-left")
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
