@@ -34,7 +34,7 @@
         .bloque-texto-d.p-4.mb-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3 Es una herramienta de gestión sistemática y transparente, que permite dirigir y evaluar el desempeño del servicio farmacéutico, en términos de calidad y satisfacción social en la prestación de los servicios a su cargo, la cual está enmarcada en los planes estratégicos y de desarrollo de las organizaciones a que pertenece el servicio. El Sistema de Gestión de la Calidad adoptará, en cada servicio, un enfoque basado en los procesos que ofrezca y en las expectativas de los usuarios, destinatarios y beneficiarios de este
+            h3 Una herramienta de gestión sistemática y transparente, que permite dirigir y evaluar el desempeño del servicio farmacéutico, en términos de calidad y satisfacción social en la prestación de los servicios a su cargo, la cual está enmarcada en los planes estratégicos y de desarrollo de las organizaciones a que pertenece el servicio. El Sistema de Gestión de la Calidad adoptará, en cada servicio, un enfoque basado en los procesos que ofrezca y en las expectativas de los usuarios, destinatarios y beneficiarios de este
             i.fas.fa-quote-right
         p.mb-4 Las Normas ISO 9000, en general, son una agrupación de normas e indicaciones internacionales para la constitución del Sistema de Gestión de la Calidad. Específicamente, la Norma ISO-9001-2015 (cuarta actualización) está centrada en toda la parte administrativa del SGC, es decir, en todos los elementos con los que una empresa debe contar para garantizar un proceder efectivo, que le permita dirigir y estar en mejora continua de sus productos y servicios.
         .cajon.color-secundario.p-4.mb-4.mb-lg-0(style="background-color: #E4DDFA")

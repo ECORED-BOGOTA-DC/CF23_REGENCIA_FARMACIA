@@ -259,7 +259,7 @@ export default {
       referencia:
         'ICONTEC International. (2015). <em>Sistemas de gestión de la calidad.</em> Requisitos (NTC- ISO 9001).',
       link:
-        'https://colaboracion.dnp.gov.co/CDT/Normograma/NORMA%20ISO%209001%202015.pdf',
+        'https://www.icontec.org/eval_conformidad/certificacion-iso-9001-sistema-de-gestion-de-calidad/',
     },
     {
       referencia:
@@ -344,25 +344,25 @@ export default {
         },
         {
           nombre: 'Jhon Edinson Castañeda Oviedo',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollo Fullstack',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Lady Adriana Ariza Luque',
-          cargo: 'Animador y Producción audiovisual',
+          cargo: 'Animación y Producción audiovisual',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Laura Gisselle Murcia Pardo',
-          cargo: 'Animador y Producción audiovisual',
+          cargo: 'Animación y Producción audiovisual',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Ernesto Navarro Jaimes',
-          cargo: 'Animador y Producción audiovisual',
+          cargo: 'Animación y Producción audiovisual',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
@@ -379,7 +379,8 @@ export default {
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
-          cargo: 'Validación de recursos educativos digitales',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación al LMS',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
