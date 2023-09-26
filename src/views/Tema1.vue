@@ -20,7 +20,7 @@
         .bloque-texto-d.p-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3 Una herramienta de gestión sistemática y transparente, que permite dirigir y evaluar el desempeño del servicio farmacéutico, en términos de calidad y satisfacción social en la prestación de los servicios a su cargo, la cual está enmarcada en los planes estratégicos y de desarrollo de las organizaciones a que pertenece el servicio. El Sistema de Gestión de la Calidad adoptará, en cada servicio, un enfoque basado en los procesos que ofrezca y en las expectativas de los usuarios, destinatarios y beneficiarios de este
+            h4 Una herramienta de gestión sistemática y transparente, que permite dirigir y evaluar el desempeño del servicio farmacéutico, en términos de calidad y satisfacción social en la prestación de los servicios a su cargo, la cual está enmarcada en los planes estratégicos y de desarrollo de las organizaciones a que pertenece el servicio. El Sistema de Gestión de la Calidad adoptará, en cada servicio, un enfoque basado en los procesos que ofrezca y en las expectativas de los usuarios, destinatarios y beneficiarios de este
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .h6.mb-0 (Resolución 1403 de 2007- Artículo 17 Sistema de Gestión de la Calidad).
@@ -34,7 +34,7 @@
         .bloque-texto-d.p-4.mb-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            h3 Una herramienta de gestión sistemática y transparente, que permite dirigir y evaluar el desempeño del servicio farmacéutico, en términos de calidad y satisfacción social en la prestación de los servicios a su cargo, la cual está enmarcada en los planes estratégicos y de desarrollo de las organizaciones a que pertenece el servicio. El Sistema de Gestión de la Calidad adoptará, en cada servicio, un enfoque basado en los procesos que ofrezca y en las expectativas de los usuarios, destinatarios y beneficiarios de este
+            h4 La Norma ISO 9001 del 2008 define dicho enfoque como “la aplicación de un sistema de procesos, dentro de la organización, junto con la identificación e interacciones de estos procesos, así como su gestión para producir el resultado deseado.
             i.fas.fa-quote-right
         p.mb-4 Las Normas ISO 9000, en general, son una agrupación de normas e indicaciones internacionales para la constitución del Sistema de Gestión de la Calidad. Específicamente, la Norma ISO-9001-2015 (cuarta actualización) está centrada en toda la parte administrativa del SGC, es decir, en todos los elementos con los que una empresa debe contar para garantizar un proceder efectivo, que le permita dirigir y estar en mejora continua de sus productos y servicios.
         .cajon.color-secundario.p-4.mb-4.mb-lg-0(style="background-color: #E4DDFA")
