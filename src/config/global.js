@@ -128,11 +128,7 @@ export default {
         titulo: 'Descargar PDF',
         download: 'downloads/331502_CF23_DU.zip',
       },
-      {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
+
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
@@ -147,7 +143,7 @@ export default {
         'Droguería San Carlos. (s. f.). <em>Planeación estratégica droguería San Carlos.</em>',
       tipo: 'PDF',
       descarga:
-        '/downloads/Anexo6_CF023_Sistema_de_gestión_de_calidad_drogueria.pdf',
+        '/downloads/Anexo6_CF023_Sistema_de_gestion_de_calidad_drogueria.pdf',
     },
     {
       tema: 'Sistema de Gestión de la Calidad',
@@ -284,7 +280,7 @@ export default {
         {
           nombre: 'Claudia Patricia Aristizábal Gutiérrez',
           cargo: 'Responsable de equipo',
-          centro: 'Dirección general',
+          centro: 'Dirección General',
         },
         {
           nombre: 'Liliana Victoria Morales Gualdrón',

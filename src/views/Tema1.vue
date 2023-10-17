@@ -49,6 +49,7 @@
       h3(data-aos="fade-right") Beneficios del Sistema de Gestión de la Calidad
       p.mb-5(data-aos="fade-right") La implementación de un SGC basado en la Norma ISO- 9001, para cualquier organización, trae varios beneficios, como son:
       .d-flex.flex-wrap
+        .col-2.d-lg-none.d-flex
         .col-lg-4.col-8.mb-lg-0.mb-4.mt-auto(data-aos="fade-right")
           img.mb-4.mb-md-auto.mx-auto(src="@/assets/curso/temas/tema1/img-4.svg" style="max-width: 402px" alt="imagen decorativa")
         .col-lg-8.ps-lg-4(data-aos="fade-left")

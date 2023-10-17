@@ -126,10 +126,10 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3.texto-blanco.mb-1 Farmacia comunitaria
-              p.texto-blanco.text-small Con el fin de profundizar en el tema del proceso de elaboración de una preparación magistral en sus diferentes etapas, se invita al aprendiz a consultar el video Farmacia Comunitaria, ubicado en el material complementario.
+              p.texto-blanco.text-small Con el fin de profundizar en el tema del proceso de elaboración de una preparación magistral en sus diferentes etapas, se invita al aprendiz a consultar el video Farmacia Comunitaria, por medio del siguiente enlace
             .col-sm-auto
               a.boton.color-acento-bottones.d-flex.justify-content-between(href="https://www.youtube.com/watch?v=207Fe-M_5K4" target="_blank" style="min-width: 122px")
-                span Ver
+                span Ver video
                 i.fas.fa-link
 
     p.mb-5(data-aos="fade-right") En el siguiente flujograma, se muestran las etapas del proceso de elaboración de los preparados magistrales, desde la prescripción médica, pasando por las verificaciones de las condiciones locativas, para garantizar la pertinencia con las Buenas Prácticas de Elaboración, controles de calidad, acondicionamiento y dispensación al usuario final.
@@ -318,7 +318,7 @@
             figure
               img.mx-auto(src='@/assets/curso/temas/tema5/img-14.png' style="max-width: 408px" alt="imagen decorativa Responsables")
 
-    p.mb-5(data-aos="fade-right") Los documentos consignados en el Batch Record, deben guardar un orden lógico relacionado con el proceso productivo. Es importante conocer cada uno de ellos, su estructura y función:
+    p.mb-5(data-aos="fade-right") Los documentos consignados en el #[em Batch Record], deben guardar un orden lógico relacionado con el proceso productivo. Es importante conocer cada uno de ellos, su estructura y función:
 
     .tarjeta.tarjeta--gris.p-4
       PasosB.color-secundario(data-aos="zoom-in")
@@ -347,7 +347,7 @@
                   p.mb-0.ps-2 Orden de producción del sistema de manejo de inventario (Factory).
                 li.d-flex.align-items-start.mb-1
                   img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
-                  p.mb-0.ps-2 Stock del producto a realizar.
+                  p.mb-0.ps-2 <em>Stock</em> del producto a realizar.
                 li.d-flex.align-items-start.mb-1
                   img.pt-1(src="@/assets/curso/temas/tema5/img-11.svg" style="max-width: 15px")
                   p.mb-0.ps-2 Descripción del producto.
@@ -370,7 +370,7 @@
             p Cada servicio o establecimiento farmacéutico tendrá su propio método para la determinación y codificación del lote asignado a cada producto elaborado y que lo identificará en todo momento durante la producción de este y su posterior almacenamiento y dispensación al usuario final.
           .col-lg-6
             .p-4(style="background-color: #D6EEF9; border: 2px solid #E8E8E8; font-size: 13px")
-              p La primera letra corresponde al año de producción del producto que se relaciona con la palabra complaints, donde cada letra equivale a un año de la década como se muestra a continuación:
+              p La primera letra corresponde al año de producción del producto que se relaciona con la palabra #[em complaints], donde cada letra equivale a un año de la década como se muestra a continuación:
               img.mx-auto.mb-3(src="@/assets/curso/temas/tema5/img-15.svg" style="max-width: 340px" alt="Explicación de la imagen: C=1 O=2 M=3 P=4 L=5 A=6 I=7 N=8 T=9 S=0")
               p La segunda letra hace referencia al mes en el que se produce el producto, cada mes del año equivale a una letra de la palabra stenographic. Como se muestra a continuación:
               img.mx-auto(src="@/assets/curso/temas/tema5/img-16.svg" alt="Explicación de la imagen: S=ENE T=FEB E=MAR N=ABR A=Año S=Mes 001=Consecutivo O=MAY G=JUN R_JUL A=AGO P=SEP H=OCT I=NOV C=DIC")
@@ -384,7 +384,7 @@
               |En ambos casos, se deja la firma de quien realiza la operación y quien la verifica.
           .col-lg-6
             .p-4(style="background-color: #D6EEF9; border: 2px solid #E8E8E8; font-size: 13px")
-              img.mx-auto(src="@/assets/curso/temas/tema5/img-17.svg" alt="imagen decorativa")
+              img.mx-auto(src="@/assets/curso/temas/tema5/img-17.svg" alt="Tabla que explica el despeje de línea.")
 
         .row.col-xl-11.mx-auto
           .col-lg-6.mb-4.mb-lg-0.pt-4
@@ -392,7 +392,7 @@
             p Es importante verificar las materias primas que van a ser utilizadas para la fabricación de las preparaciones magistrales en lo relacionado con: cantidades, registrar los lotes de cada una en caso de necesitar hacer trazabilidad, fecha de vencimiento para garantizar que son aptas para su uso, y realizar inspección visual para detectar alguna anomalía.  La tabla ilustra un formato de verificación de materia prima.
           .col-lg-6
             .p-4(style="background-color: #D6EEF9; border: 2px solid #E8E8E8; font-size: 13px")
-              img.mx-auto(src="@/assets/curso/temas/tema5/img-18.svg" alt="imagen decorativa")
+              img.mx-auto(src="@/assets/curso/temas/tema5/img-18.svg" alt="Tabla que explica la verificación de materia prima.")
         
         .row.col-xl-11.mx-auto
           .col-lg-6.mb-4.mb-lg-0.pt-4
@@ -401,7 +401,10 @@
           .col-lg-6
             .p-4(style="background-color: #D6EEF9; border: 2px solid #E8E8E8; font-size: 13px")
               img.mx-auto(src="@/assets/curso/temas/tema5/img-19.svg" alt="Imagen que contiene un formato de Envase que representa la verificación de materiales.")
-        
+            .col.d-flex.justify-content-end
+              a.boton.color-acento-botones.indicador__container(@click="modal4 = true; mostrarIndicador = false;")
+                span.fw-bold(style="color: black") Ver verificación materiales
+                .indicador--click(v-if="mostrarIndicador")
         .row.col-xl-11.mx-auto
           .col-lg-6.mb-4.mb-lg-0.pt-4
             h3 Controles proceso
@@ -409,7 +412,7 @@
             p Como modelos de formatos para registrar dicha información, se tienen los representados en las tablas:
           .col-lg-6
             .p-4(style="background-color: #D6EEF9; border: 2px solid #E8E8E8; font-size: 13px")
-              img.mb-3.mx-auto(src="@/assets/curso/temas/tema5/img-20.svg" alt="Imagen con una tabla que hace referencia al formato de información para envasado (volumen o densidad), donde se incluye: Stock producto Volumen (ml) Densidad (mg/ml) Intervalo de llenado (mín. - máx.) (g) Vo. Bo. para llenado")
+              img.mb-3.mx-auto(src="@/assets/curso/temas/tema5/img-20.svg" alt="Imagen con una tabla que hace referencia al formato de información para envasado (volumen o densidad), donde se incluye: <em>Stock</em> producto Volumen (ml) Densidad (mg/ml) Intervalo de llenado (mín. - máx.) (g) Vo. Bo. para llenado")
               p Durante intervalos definidos, el personal de producción verifica que el volumen y el peso del producto sea los adecuados según las especificaciones de este, deberá reportar la información en el formato y reporta en caso de que algún resultado se encuentre por fuera de especificaciones.
               .col.d-flex.justify-content-end
                 a.boton.color-acento-botones.indicador__container(@click="modal1 = true; mostrarIndicador = false;")
@@ -441,7 +444,7 @@
                 p.mb-0.ps-2 Firma de quien hizo la verificación.
           .col-lg-6
             .p-4(style="background-color: #D6EEF9; border: 2px solid #E8E8E8; font-size: 13px")
-              img.mx-auto(src="@/assets/curso/temas/tema5/img-21.svg" alt="Imagen que contiene una tabla con un formato de Controles en proceso Procesos a realizar, incluyendo los siguientes datos: 1 Seleccionado 2 Etiquetado 3 Empacado 4 Limpiado 5 Codificado 6 Sellado 7 Termoencogido 8 Embalado 9 Sticker colocado 10 Otro: 11 Otro 12 Otro: Fecha: Proceso: / Hora: Stock producto")
+              img.mx-auto(src="@/assets/curso/temas/tema5/img-21.svg" alt="Imagen que contiene una tabla con un formato de Controles en proceso Procesos a realizar, incluyendo los siguientes datos: 1 Seleccionado 2 Etiquetado 3 Empacado 4 Limpiado 5 Codificado 6 Sellado 7 Termoencogido 8 Embalado 9 Sticker colocado 10 Otro: 11 Otro 12 Otro: Fecha: Proceso: / Hora: <em>Stock</em> producto")
         
         .row.col-xl-11.mx-auto
           .col-lg-6.mb-4.mb-lg-0.pt-4
@@ -487,7 +490,7 @@
           .col-lg-6
             p La tabla muestra un ejemplo de la información a controlar.
             .p-4(style="background-color: #D6EEF9; border: 2px solid #E8E8E8; font-size: 13px")
-              img.mb-3.mx-auto(src="@/assets/curso/temas/tema5/img-23.svg" alt="Imagen con una tabla que representa un formato de conciliación de materiales, donde se destaca la siguiente información: Fecha Stock material O. Factory Cantidad devuelta (buena calidad) Responsable entrega Responsable recibe Cantidad rechazada Causal* Responsable recibe Cantidad rechazada Reposición *En la columna causal se debe especificar el número de alguno de los siguientes defectos: 1 Error de impresión 2 Golpe 3 Rayones 4 Quebrado roto 5 Dimensiones erróneas 6 Contaminación 7 Por proceso 8 Otro:")
+              img.mb-3.mx-auto(src="@/assets/curso/temas/tema5/img-23.svg" alt="Imagen con una tabla que representa un formato de conciliación de materiales, donde se destaca la siguiente información: Fecha <em>Stock</em> material O. Factory Cantidad devuelta (buena calidad) Responsable entrega Responsable recibe Cantidad rechazada Causal* Responsable recibe Cantidad rechazada Reposición *En la columna causal se debe especificar el número de alguno de los siguientes defectos: 1 Error de impresión 2 Golpe 3 Rayones 4 Quebrado roto 5 Dimensiones erróneas 6 Contaminación 7 Por proceso 8 Otro:")
               .col.d-flex.justify-content-end
                 a.boton.color-acento-botones(@click="modal3 = true;")
                   span.fw-bold(style="color: black") Ampliar
@@ -504,7 +507,7 @@
     ModalA(:abrir-modal.sync="modal1")
       .row.align-items-center
         .p-4(style="background-color: #D6EEF9; border: 2px solid #E8E8E8; font-size: 13px")
-          img.mx-auto(src="@/assets/curso/temas/tema5/img-modal.svg" style="max-width: 300px" alt="Imagen con una tabla que representa un formato de Controles en el proceso, el cual contiene la siguiente información: Stock producto: Fecha: Hora: Volumen: Peso: Código realizado por: ...")
+          img.mx-auto(src="@/assets/curso/temas/tema5/img-modal.svg" style="max-width: 300px" alt="Imagen con una tabla que representa un formato de Controles en el proceso, el cual contiene la siguiente información: <em>Stock</em> producto: Fecha: Hora: Volumen: Peso: Código realizado por: ...")
     
     ModalA(:abrir-modal.sync="modal2")
       .row.align-items-center
@@ -514,7 +517,13 @@
     ModalA(:abrir-modal.sync="modal3")
       .row.align-items-center
         .p-4(style="background-color: #D6EEF9; border: 2px solid #E8E8E8; font-size: 13px")
-          img.mx-auto(src="@/assets/curso/temas/tema5/img-23.svg" alt="Imagen con una tabla que representa un formato de conciliación de materiales, donde se destaca la siguiente información: Fecha Stock material O. Factory Cantidad devuelta (buena calidad) Responsable entrega Responsable recibe Cantidad rechazada Causal* Responsable recibe Cantidad rechazada Reposición *En la columna causal se debe especificar el número de alguno de los siguientes defectos: 1 Error de impresión 2 Golpe 3 Rayones 4 Quebrado roto 5 Dimensiones erróneas 6 Contaminación 7 Por proceso 8 Otro:")
+          img.mx-auto(src="@/assets/curso/temas/tema5/img-23.svg" alt="Imagen con una tabla que representa un formato de conciliación de materiales, donde se destaca la siguiente información: Fecha <em>Stock</em> material O. Factory Cantidad devuelta (buena calidad) Responsable entrega Responsable recibe Cantidad rechazada Causal* Responsable recibe Cantidad rechazada Reposición *En la columna causal se debe especificar el número de alguno de los siguientes defectos: 1 Error de impresión 2 Golpe 3 Rayones 4 Quebrado roto 5 Dimensiones erróneas 6 Contaminación 7 Por proceso 8 Otro:")
+    
+    ModalA(:abrir-modal.sync="modal4")
+      .row.align-items-center
+        .p-4(style="background-color: #D6EEF9; border: 2px solid #E8E8E8; font-size: 13px")
+          img.mx-auto(src="@/assets/curso/temas/tema5/img-19.svg" alt="Imagen que contiene un formato de Envase que representa la verificación de materiales.")
+
     
     Separador
     #t_5_4.titulo-segundo.color-botones(data-aos="fade-right")
@@ -567,96 +576,119 @@
       p(data-aos="fade-right") En las siguientes figuras, se podrán visualizar algunos de estos equipos e implementos, sus características y funciones.
     
     .p-4.mb-5(style="background-color: #E8EEFA" data-aos="fade-right")
-      SlyderA.col-xl-11.mx-auto.py-4(tipo="b")
-        .d-flex.flex-wrap
-          h4.w-100.text-center.mb-4 Equipos e implementos proceso de producción
-          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+
+
+      h4.w-100.text-center.mb-4 Equipos e implementos proceso de producción
+      SlyderF.mb-5(columnas="col-sm-6 col-xl-4")
+        .row.justify-content-center
+          .col.p-2
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-1.jpg" alt=" Balanzas de precisión ")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 0")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Balanzas de precisión 
-          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+        .row.justify-content-center
+          .col.p-2
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-2.jpg" alt=" Morteros de vidrio ")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 1")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Morteros de vidrio 
-          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+        .row.justify-content-center
+          .col.p-2
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-3.jpg" alt=" Baño termostático")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 2")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Baño termostático
-          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+        .row.justify-content-center
+          .col.p-2
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-4.jpg" alt=" Auxiliares de pipeteo ")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 3")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Auxiliares de pipeteo 
-          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+        .row.justify-content-center
+          .col.p-2
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-5.jpg" alt=" Agitadores magnéticos ")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 4")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Agitadores magnéticos 
-          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+        .row.justify-content-center
+          .col.p-2
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-6.jpg" alt=" Espátulas ")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 5")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Espátulas 
-          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+        .row.justify-content-center
+          .col.p-2
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-7.jpg" alt=" Placas calefactoras")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 6")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Placas calefactoras
-          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+        .row.justify-content-center
+          .col.p-2
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-8.jpg" alt=" pH-metro")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 7")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") pH-metro
-          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+        .row.justify-content-center
+          .col.p-2
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-9.jpg" alt=" Lente de aumento")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 8")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Lente de aumento
-          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+        .row.justify-content-center
+          .col.p-2
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-10.jpg" alt=" Termómetros")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 9")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Termómetros
-          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+        .row.justify-content-center
+          .col.p-2
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-11.jpg" alt=" Sistema para determinar ")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 10")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Sistema para determinar 
-          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+        .row.justify-content-center
+          .col.p-2
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-12.jpg" alt=" Alcohómetro")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 11")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Alcohómetro
 
-        .d-flex.flex-wrap
-          h4.w-100.text-center.mb-4 Material volumétrico para medir desde 100 μl a 1 l
-          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+      h4.w-100.text-center.mb-4 Material volumétrico para medir desde 100 μl a 1 l
+      SlyderF.mb-5(columnas="col-sm-6 col-xl-4")
+        .row.justify-content-center
+          .col.p-2
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-13.jpg" alt=" Pipetas graduadas ")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 12")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Pipetas graduadas 
-          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+        .row.justify-content-center
+          .col.p-2
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-14.jpg" alt=" Pipetas automáticas ")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 13")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Pipetas automáticas 
-          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+        .row.justify-content-center
+          .col.p-2
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-15.jpg" alt=" Probetas")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 14")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Probetas
-          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+        .row.justify-content-center
+          .col.p-2
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-16.jpg" alt=" Matraces aforados")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 15")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Matraces aforados
-        
-        .d-flex.flex-wrap
-          h4.w-100.text-center.mb-4 Material diverso
-          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+    
+
+      h4.w-100.text-center.mb-4 Material diverso
+      SlyderF.mb-5(columnas="col-sm-6 col-xl-4")
+        .row.justify-content-center
+          .col.p-2
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-17.jpg" alt=" Vasos de precipitados")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 16")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Vasos de precipitados
-          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+        .row.justify-content-center
+          .col.p-2
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-18.jpg" alt=" Embudos")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 17")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Embudos
-          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+        .row.justify-content-center
+          .col.p-2
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-19.jpg" alt=" Matraces Erlenmeyer ")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 18")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Matraces Erlenmeyer 
-          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+        .row.justify-content-center
+          .col.p-2
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-20.jpg" alt=" Tamices para polvo")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 19")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Tamices para polvo
-          .col-sm-12.col-md-6.col-lg-3.col-xl-2.p-2.mx-auto.d-flex.flex-wrap
+        .row.justify-content-center
+          .col.p-2
             img.w-100.mx-auto(src="@/assets/curso/temas/tema5/i-21.jpg" alt=" Vidrio de reloj ")
             .p-2.w-100(style="background-color: #15D3EC; cursor: pointer;" @click="modalTarjetas = true; indexTarjeta = 20")
               p.fw-bold.mb-0.text-center(style="font-size: 13px") Vidrio de reloj 
@@ -689,6 +721,7 @@ export default {
     modal1: false,
     modal2: false,
     modal3: false,
+    modal4: false,
     modalTarjetas: false,
     mostrarIndicador: true,
     indexTarjeta: 0,

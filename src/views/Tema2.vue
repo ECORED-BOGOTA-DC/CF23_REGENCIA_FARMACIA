@@ -18,7 +18,7 @@
           li(data-aos="fade-right")
             .lista-ol--cuadro__vineta
               span 1
-            p.mb-0 <b>Acciones correctivas:</b> acción para eliminar la causa de una no conformidad y evitar que vuelva a ocurrir. Está acción se toma para prevenir que algo vuelva a ocurrir.
+            p.mb-0 <b>Acciones correctivas:</b> acción para eliminar la causa de una no conformidad y evitar que vuelva a ocurrir. Esta acción se toma para prevenir que algo vuelva a ocurrir.
           li(data-aos="fade-right")
             .lista-ol--cuadro__vineta
               span 2
