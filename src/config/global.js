@@ -128,7 +128,11 @@ export default {
         titulo: 'Descargar PDF',
         download: 'downloads/331502_CF23_DU.zip',
       },
-
+      {
+        icono: 'fas fa-download',
+        titulo: 'Descargar material',
+        download: 'downloads/material.zip',
+      },
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
